@@ -1,4 +1,6 @@
 /*Phần S Pen của Hoàng*/
+*{margin:0;
+padding:0;}
 #spen{
     background-image: url("resources/Spen_Image/spen_background.PNG");
     width: 100%;
