@@ -8,7 +8,6 @@ padding:0;}
     position: absolute;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     background-size: cover;
     /*-webkit-background-size: ;*/
     /*-moz-background-size: cover;*/
@@ -17,12 +16,12 @@ padding:0;}
 }
     #spen-head{
         width: 100%;
-        height: 100px;
+        height: 50px;
         border-style: none;
     }
     #spen-intro{
         width: 100%;
-        height: 600px;
+        height: 250px;
         border-style: none;
     }
         #spen-intro-first{
@@ -114,7 +113,7 @@ padding:0;}
             }
     #spen-func{
         width: 100%;
-        height: 250px;
+        height: 800px;
         position: relative;
     }
         #spen-func-part1{
