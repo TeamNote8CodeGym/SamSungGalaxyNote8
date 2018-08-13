@@ -5,13 +5,9 @@ padding:0;}
     background-image: url("resources/Spen_Image/spen_background.PNG");
     width: 100%;
     height: 1250px;
-    position: absolute;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    /*-webkit-background-size: ;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
 
 }
     #spen-head{
