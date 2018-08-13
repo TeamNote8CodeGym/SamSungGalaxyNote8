@@ -1,0 +1,107 @@
+.topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    padding:18px;
+    margin-top: 10px;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover:not(.active) {
+    border-bottom: 3px solid blue;
+}
+
+.topnav a.active {
+    background-color: white;
+    color: blue;;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+    float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+        float: none;
+        display: block;
+    }
+
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+.top-header {
+    border: 1px solid #3FF;
+    height: 45px;
+    line-height: 45px;
+    background-color:#000;
+}
+.header1 {
+    width: 660px;
+    float:left;
+    padding-left: 16px;
+    font-size: 24px;
+    font-weight:bold;
+    color: white;
+}
+.header2 {
+    width: 100px;
+    float: right;
+}
+.header2 a {
+    text-decoration: none;
+    border: 1px solid black;
+    text-align:center;
+    padding: 0px 24px;
+    display: inline-block;
+    margin: -14px;
+    background-color:blue;
+    color:white;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav a:hover {
+    border-bottom: 3px solid red;
+}
+
+.nav a.active {
+    border-bottom: 3px solid red;
+}
