@@ -190,7 +190,7 @@ padding:0;}
             float: left;
         }
     #spen-final{
-        height: 300px;
+        height: 50px;
         width: 100%;
         position: relative;
     }
@@ -203,19 +203,278 @@ padding:0;}
             height: 100%;
             width: 40%;
             float: left;
+            border: 1px solid white;
+            border-radius: 40px;
         }
-            #spen-final-btn{
+            #spen-final-btn-layout-link {
+                padding-top: 10px;
                 display: block;
+                text-align: center;
+                text-decoration: none;
+                font-size: 30px;
+                font-style: normal;
+                color: white;
+                cursor: pointer;
+            }
+            #spen-final-btn-layout-link:hover{
+                padding-top: 0;
+                color: black;
+                font-size: 50px;
+            }
+            #spen-final-part2:hover{
+                background: white;
+                border: black;
+            }
+        #spen-final-part3{
+            height: 100%;
+            width: 30%;
+            float: left;
+        }
+#camera{
+    background-image: url("resources/Camera_Image/Background_Image.PNG");
+    width: 100%;
+    height: 1250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+    #camera-intro{
+        padding-top: 50px;
+        width: 100%;
+        height: 250px;
+        border-style: none;
+    }
+        #camera-intro-first{
+            width: 100%;
+            height: 30px;
+        }
+            #camera-intro-first-name{
+                text-align: center;
+                color: aliceblue;
+            }
+        #camera-intro-second{
+            width: 100%;
+            height: 90px;
+            position: relative;
+        }
+            #camera-intro-second-part1{
+                float: left;
+                width: 33.33%;
+                height: 100%;
+            }
+            #camera-intro-second-part2{
+                float: left;
+                width:33.33%;
+                height: 100%;
+            }
+                #camera-intro-second-slogan{
+                    font-size: 35px;
+                    text-align: center;
+                    display: block;
+                    color: aliceblue;
+                }
+            #camera-intro-second-part3{
+                float: left;
+                width: 33.33%;
+                height: 100%;
+            }
+        #camera-intro-third{
+            width: 100%;
+            height: 60px;
+            position: relative;
+        }
+            #camera-intro-third-part1{
+                float: left;
+                width: 25%;
+                height: 100%;
+            }
+            #camera-intro-third-part2{
+                float: left;
                 width: 50%;
-                margin-left: auto;
-                margin-right: auto;
-                border-style: solid;
-                border-radius: 30px;
+                height:100%;
+            }
+                #camera-intro-third-detail{
+                    font-size: 15px;
+                    text-align: center;
+                    display: block;
+                    color: aliceblue;
+                }
+            #camera-intro-third-part3{
+                float: left;
+                width: 25%;
+                height: 100%;
+            }
+        #camera-intro-fourth{
+            width: 100%;
+            height: 20px;
+            position: relative;
+        }
+            #camera-intro-fourth-part1{
+                width: 33.33%;
+                height: 100%;
+                float: left;
+            }
+            #camera-intro-fourth-part2{
+                width: 33.33%;
+                height:100%;
+                float: left;
+            }
+                #camera-intro-fourth-one{
+                    font-size: 11px;
+                    font-style: italic;
+                    text-align: center;
+                    display: block;
+                    color: aliceblue;
+                }
+                #camera-intro-fourth-two{
+                    font-size: 11px;
+                    font-style: italic;
+                    text-align: center;
+                    display: block;
+                    color: aliceblue;
+                }
+            #camera-intro-fourth-part3{
+                width: 33.33%;
+                height: 100%;
+                float: left;
+            }
+    #camera-func{
+        width: 100%;
+        height: 800px;
+        position: relative;
+    }
+        #camera-func-part1{
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+        #camera-func-part2{
+            width: 40%;
+            height: 100%;
+            float: left;
+        }
+            #camera-func-list{
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+                #camera-func-list-tech-layout{
+                    height: 100%;
+                    width:25%;
+                    float: left;
+                }
+                    #camera-func-list-tech-layout-img{
+                        width: 50%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    #camera-func-list-tech-layout-cmt{
+                        height: 50px;
+                        font-style: normal;
+                        font-size: 15px;
+                        text-align: center;
+                        display: block;
+                        color: aliceblue;
+                    }
+                #camera-func-list-zoom-layout{
+                    height: 100%;
+                    width: 25%;
+                    float: left;
+                }
+                    #camera-func-list-zoom-layout-img{
+                        width: 50%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    #camera-func-list-zoom-layout-cmt{
+                        height: 50px;
+                        font-style: normal;
+                        font-size: 15px;
+                        text-align: center;
+                        display: block;
+                        color: aliceblue;
+                    }
+                #camera-func-list-sensor-layout{
+                    height: 100%;
+                    width: 25%;
+                    float: left;
+                }
+                    #camera-func-list-sensor-layout-img{
+                        width: 50%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    #camera-func-list-sensor-layout-cmt{
+                        height: 50px;
+                        font-style: normal;
+                        font-size: 15px;
+                        text-align: center;
+                        display: block;
+                        color: aliceblue;
+                    }
+                #camera-func-list-mirror-layout{
+                    height: 100%;
+                    width: 25%;
+                    float: left;
+                }
+                    #camera-func-list-mirror-layout-img{
+                        width: 50%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    #camera-func-list-mirror-layout-cmt{
+                        height: 50px;
+                        font-style: normal;
+                        font-size: 15px;
+                        text-align: center;
+                        display: block;
+                        color: aliceblue;
+                    }
+        #camera-func-part3{
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+    #camera-final{
+        height: 50px;
+        width: 100%;
+        position: relative;
+    }
+        #camera-final-part1{
+            height: 100%;
+            width: 30%;
+            float: left;}
+        #camera-final-part2{
+            height: 100%;
+            width: 40%;
+            float: left;
+            border: 1px solid white;
+            border-radius: 40px;
+        }
+            #camera-final-layout-link{
+                text-decoration: none;
+                padding-top: 10px;
+                display: block;
                 text-align: center;
                 font-size: 30px;
                 font-style: normal;
-                color: darkorange;
+                color: white;
+                cursor: pointer;
             }
-            #spen-final-btn-layout-link{
-                text-decoration: none;
-            }
+                #camera-final-layout-link:hover{
+                    padding-top: 0;
+                    color: black;
+                    font-size: 50px;
+                }
+                #camera-final-part2:hover{
+                    background: white;
+                    border: black;
+                }
+        #camera-final-part3{
+            height: 100%;
+            width: 30%;
+            float: left;}
