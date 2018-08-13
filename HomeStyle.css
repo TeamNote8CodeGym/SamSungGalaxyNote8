@@ -4,25 +4,223 @@ padding:0;}
 #spen{
     background-image: url("resources/Spen_Image/spen_background.PNG");
     width: 100%;
-    height: 1300px;
+    height: 1250px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    /*-webkit-background-size: ;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+
 }
-#spen-head{
-    width: 100%;
-    height: 20px;
-    border-style: none;
-}
-#spen-intro{
-    width: 100%;
-    height: 1260px;
-    border-style: none;
-}
-#spen-intro-first{
-    width: 100%;
-    height: 100px;
-    border-style:none;
-}
-#spen-final{
-    width: 100%;
-    height:20px;
-    border-style: none;
-}
+    #spen-head{
+        width: 100%;
+        height: 100px;
+        border-style: none;
+    }
+    #spen-intro{
+        width: 100%;
+        height: 600px;
+        border-style: none;
+    }
+        #spen-intro-first{
+            width: 100%;
+            height: 30px;
+        }
+            #spen-intro-first-name{
+                text-align: center;
+                color: aliceblue;
+            }
+        #spen-intro-second{
+            width: 100%;
+            height: 90px;
+            position: relative;
+        }
+            #spen-intro-second-part1{
+                float: left;
+                width: 33.33%;
+                height: 100%;
+            }
+            #spen-intro-second-part2{
+                float: left;
+                width:33.33%;
+                height: 100%;
+            }
+                #spen-intro-second-slogan{
+                    font-size: 35px;
+                    text-align: center;
+                    display: block;
+                    color: aliceblue;
+                }
+            #spen-intro-second-part3{
+                float: left;
+                width: 33.33%;
+                height: 100%;
+            }
+        #spen-intro-third{
+            width: 100%;
+            height: 60px;
+            position: relative;
+        }
+            #spen-intro-third-part1{
+                float: left;
+                width: 25%;
+                height: 100%;
+            }
+            #spen-intro-third-part2{
+                float: left;
+                width: 50%;
+                height:100%;
+            }
+                #spen-intro-third-detail{
+                    font-size: 15px;
+                    text-align: center;
+                    display: block;
+                    color: aliceblue;
+                }
+            #spen-intro-third-part3{
+                float: left;
+                width: 25%;
+                height: 100%;
+            }
+        #spen-intro-fourth{
+            width: 100%;
+            height: 20px;
+            position: relative;
+        }
+            #spen-intro-fourth-part1{
+                width: 33.33%;
+                height: 100%;
+                float: left;
+            }
+            #spen-intro-fourth-part2{
+                width: 33.33%;
+                height:100%;
+                float: left;
+            }
+                #spen-intro-fourth-detail{
+                    font-size: 11px;
+                    font-style: italic;
+                    text-align: center;
+                    display: block;
+                    color: aliceblue;
+                }
+            #spen-intro-fourth-part3{
+                width: 33.33%;
+                height: 100%;
+                float: left;
+            }
+    #spen-func{
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+        #spen-func-part1{
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+        #spen-func-part2{
+            width: 40%;
+            height: 100%;
+            float: left;
+        }
+            #spen-func-list{
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+                #spen-func-list-message-layout{
+                    height: 100%;
+                    width:33.33%;
+                    float: left;
+                }
+                    #spen-func-list-message-layout-img{
+                        width: 50%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    #spen-func-list-message-layout-cmt{
+                        height: 50px;
+                        font-style: normal;
+                        font-size: 15px;
+                        text-align: center;
+                        display: block;
+                        color: aliceblue;
+                    }
+                #spen-func-list-note-layout{
+                    height: 100%;
+                    width: 33.33%;
+                    float: left;
+                }
+                    #spen-func-list-note-layout-img{
+                        width: 50%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    #spen-func-list-note-layout-cmt{
+                        height: 50px;
+                        font-style: normal;
+                        font-size: 15px;
+                        text-align: center;
+                        display: block;
+                        color: aliceblue;
+                    }
+                #spen-func-list-display-layout{
+                    height: 100%;
+                    width: 33.33%;
+                    float: left;
+                }
+                    #spen-func-list-display-layout-img{
+                        width: 50%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    #spen-func-list-display-layout-cmt{
+                        height: 50px;
+                        font-style: normal;
+                        font-size: 15px;
+                        text-align: center;
+                        display: block;
+                        color: aliceblue;
+                    }
+        #spen-func-part3{
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+    #spen-final{
+        height: 300px;
+        width: 100%;
+        position: relative;
+    }
+        #spen-final-part1{
+            height: 100%;
+            width: 30%;
+            float: left;
+        }
+        #spen-final-part2{
+            height: 100%;
+            width: 40%;
+            float: left;
+        }
+            #spen-final-btn{
+                display: block;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                border-style: solid;
+                border-radius: 30px;
+                text-align: center;
+                font-size: 30px;
+                font-style: normal;
+                color: darkorange;
+            }
+            #spen-final-btn-layout-link{
+                text-decoration: none;
+            }
