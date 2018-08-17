@@ -47,7 +47,8 @@
     font-family: Arial;
     font-size: 16px;
     font-style: inherit;
-    height: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 
@@ -103,7 +104,8 @@
     line-height: 22px;
     display: inline-block;
     text-align: center;
-    margin: 6px;
+    margin-top: 6px;
+    margin-bottom: 30px;
     padding: 0;
 }
 
@@ -137,6 +139,7 @@
 .product-note-8{
     position: absolute;
     left: 46%;
+    margin-top: 1.2%;
     z-index: 2;
 }
 
