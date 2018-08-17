@@ -11,179 +11,179 @@ padding:0;}
     background-size: cover;
 
 }
-    #spen-intro{
-        width: 100%;
-        height: 33.3333%;
-        border-style: none;
-        padding-top: 50px;
-    }
-        #spen-intro-first{
-            width: 100%;
-            height: 7.5%;
-        }
-            #spen-intro-first-name{
-                font-size: 30px;
-                text-align: center;
-                color: aliceblue;
-            }
-        #spen-intro-second{
-            width: 100%;
-            height: 37.5%;
-        }
-                #spen-intro-second-slogan{
-                    font-size: 45px;
-                    text-align: center;
-                    margin-left: 30%;
-                    margin-right: 30%;
-                    color: aliceblue;
-                }
-        #spen-intro-third{
-            width: 100%;
-            height: 40%;
-        }
-                #spen-intro-third-detail{
-                    font-size: 25px;
-                    text-align: center;
-                    color: aliceblue;
-                    margin-right: 30%;
-                    margin-left: 30%;
-                }
-        #spen-intro-fourth{
-            padding-top: 30px;
-            width: 100%;
-            height: 7.5%;
-        }
-                #spen-intro-fourth-detail{
-                    font-size: 20px;
-                    font-style: italic;
-                    text-align: center;
-                    color: aliceblue;
-                    margin-left: 30%;
-                    margin-right: 30%;
-                }
-    #spen-func{
-        width: 100%;
-        height: 15%;
-        position: relative;
-    }
-        #spen-func-part1{
-            width: 30%;
-            height: 100%;
-            float: left;
-        }
-        #spen-func-part2{
-            width: 40%;
-            height: 100%;
-            float: left;
-        }
-            #spen-func-list{
-                width: 100%;
-                height: 100%;
-                position: relative;
-            }
-                #spen-func-list-message-layout{
-                    background-color: lightcoral;
-                    border-radius: 50%;
-                    height: 100%;
-                    width:33.33%;
-                    float: left;
-                }
-                    #spen-func-list-message-layout-img{
-                        margin-top: 20px;
-                        max-width: 50%;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #spen-func-list-message-layout-cmt{
-                        height: 50px;
-                        font-weight: bolder;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: white;
-                    }
-                #spen-func-list-note-layout{
-                    background-color: lightcoral;
-                    border-radius: 50%;
-                    height: 100%;
-                    width: 33.33%;
-                    float: left;
-                }
-                    #spen-func-list-note-layout-img{
-                        margin-top: 20px;
-                        max-width: 50%;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #spen-func-list-note-layout-cmt{
-                        height: 50px;
-                        font-weight: bolder;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: white;
-                    }
-                #spen-func-list-display-layout{
-                    background-color: lightcoral;
-                    border-radius:50%;
-                    height: 100%;
-                    width: 33.33%;
-                    float: left;
-                }
-                    #spen-func-list-display-layout-img{
-                        margin-top: 20px;
-                        display: block;
-                        max-width: 50%;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #spen-func-list-display-layout-cmt{
-                        height: 50px;
-                        font-weight: bolder;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: white;
-                    }
-        #spen-func-part3{
-            width: 30%;
-            height: 100%;
-            float: left;
-        }
-    #spen-final{
-        height: 10%;
-        width: 100%;
-        position: absolute;
-        bottom: 50px;
-    }
-        #spen-final-part2{
-            height: 60px;
-            border: 1px solid white;
-            border-radius: 40px;
-            margin-left: 30%;
-            margin-right: 30%;
-        }
-            #spen-final-btn-layout-link {
-                padding-top: 10px;
-                display: block;
-                text-align: center;
-                text-decoration: none;
-                font-size: 30px;
-                font-style: normal;
-                color: white;
-                cursor: pointer;
-            }
-            #spen-final-btn-layout-link:hover{
-                padding-top: 0;
-                color: black;
-                font-size: 50px;
-            }
-            #spen-final-part2:hover{
-                background: white;
-                border: black;
-            }
+#spen-intro{
+    width: 100%;
+    height: 33.3333%;
+    border-style: none;
+    padding-top: 50px;
+}
+#spen-intro-first{
+    width: 100%;
+    height: 7.5%;
+}
+#spen-intro-first-name{
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+#spen-intro-second{
+    width: 100%;
+    height: 37.5%;
+}
+#spen-intro-second-slogan{
+    font-size: 45px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: aliceblue;
+}
+#spen-intro-third{
+    width: 100%;
+    height: 40%;
+}
+#spen-intro-third-detail{
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+#spen-intro-fourth{
+    padding-top: 30px;
+    width: 100%;
+    height: 7.5%;
+}
+#spen-intro-fourth-detail{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#spen-func{
+    width: 100%;
+    height: 15%;
+    position: relative;
+}
+#spen-func-part1{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#spen-func-part2{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+#spen-func-list{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#spen-func-list-message-layout{
+    background-color: lightcoral;
+    border-radius: 50%;
+    height: 100%;
+    width:33.33%;
+    float: left;
+}
+#spen-func-list-message-layout-img{
+    margin-top: 20px;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#spen-func-list-message-layout-cmt{
+    height: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+#spen-func-list-note-layout{
+    background-color: lightcoral;
+    border-radius: 50%;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+#spen-func-list-note-layout-img{
+    margin-top: 20px;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#spen-func-list-note-layout-cmt{
+    height: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+#spen-func-list-display-layout{
+    background-color: lightcoral;
+    border-radius:50%;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+#spen-func-list-display-layout-img{
+    margin-top: 20px;
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#spen-func-list-display-layout-cmt{
+    height: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+#spen-func-part3{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#spen-final{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+#spen-final-part2{
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#spen-final-btn-layout-link {
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+}
+#spen-final-btn-layout-link:hover{
+    padding-top: 0;
+    color: black;
+    font-size: 50px;
+}
+#spen-final-part2:hover{
+    background: white;
+    border: black;
+}
 #camera{
     background-image: url("resources/Camera_Image/Background_Image.PNG");
     width: 100%;
@@ -193,210 +193,210 @@ padding:0;}
     background-position: center center;
     background-size: cover;
 }
-    #camera-intro{
-        padding-top: 50px;
-        width: 100%;
-        height: 55%;
-    }
-        #camera-intro-first{
-            width: 100%;
-            height: 4.54%;
-        }
-            #camera-intro-first-name{
-                font-size: 30px;
-                text-align: center;
-                color: aliceblue;
-            }
-        #camera-intro-second{
-            width: 100%;
-            height: 30.3%;
-        }
-                #camera-intro-second-slogan{
-                    margin-left: 30%;
-                    margin-right: 30%;
-                    font-size: 45px;
-                    text-align: center;
-                    color: aliceblue;
-                }
-        #camera-intro-third{
-            width: 100%;
-            height: 45.45%;
-        }
-                #camera-intro-third-detail{
-                    font-size: 25px;
-                    margin-right: 30%;
-                    margin-left: 30%;
-                    text-align: center;
-                    color: aliceblue;
-                }
-        #camera-intro-fourth{
-            padding-top: 50px;
-            width: 100%;
-            height: 9.1%;
-            position: relative;
-        }
-                #camera-intro-fourth-one{
-                    font-size: 20px;
-                    margin-left: 30%;
-                    margin-right: 30%;
-                    font-style: italic;
-                    text-align: center;
-                    color: aliceblue;
-                }
-                #camera-intro-fourth-two{
-                    font-size: 20px;
-                    margin-left: 30%;
-                    margin-right: 30%;
-                    font-style: italic;
-                    text-align: center;
-                    color: aliceblue;
-                }
-    #camera-func{
-        padding-top: 30px;
-        width: 100%;
-        height: 15%;
-        position: relative;
-    }
-        #camera-func-part1{
-            width: 30%;
-            height: 100%;
-            float: left;
-        }
-        #camera-func-part2{
-            width: 40%;
-            height: 100%;
-            float: left;
-        }
-            #camera-func-list{
-                width: 100%;
-                height: 100%;
-                position: relative;
-            }
-                #camera-func-list-tech-layout{
-                    background-color: lightcoral;
-                    border-radius:50%;
-                    height: 100%;
-                    width:25%;
-                    float: left;
-                }
-                    #camera-func-list-tech-layout-img{
-                        width: 50%;
-                        display: block;
-                        margin-top: 20px;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #camera-func-list-tech-layout-cmt{
-                        height: 50px;
-                        font-style: normal;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: aliceblue;
-                    }
-                #camera-func-list-zoom-layout{
-                    background-color: lightcoral;
-                    border-radius:50%;
-                    height: 100%;
-                    width: 25%;
-                    float: left;
-                }
-                    #camera-func-list-zoom-layout-img{
-                        width: 50%;
-                        margin-top: 20px;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #camera-func-list-zoom-layout-cmt{
-                        height: 50px;
-                        font-style: normal;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: aliceblue;
-                    }
-                #camera-func-list-sensor-layout{
-                    background-color: lightcoral;
-                    border-radius:50%;
-                    height: 100%;
-                    width: 25%;
-                    float: left;
-                }
-                    #camera-func-list-sensor-layout-img{
-                        width: 50%;
-                        margin-top: 20px;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #camera-func-list-sensor-layout-cmt{
-                        height: 50px;
-                        font-style: normal;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: aliceblue;
-                    }
-                #camera-func-list-mirror-layout{
-                    background-color: lightcoral;
-                    border-radius:50%;
-                    height: 100%;
-                    width: 25%;
-                    float: left;
-                }
-                    #camera-func-list-mirror-layout-img{
-                        width: 50%;
-                        margin-top: 20px;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #camera-func-list-mirror-layout-cmt{
-                        height: 50px;
-                        font-style: normal;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: aliceblue;
-                    }
-        #camera-func-part3{
-            width: 30%;
-            height: 100%;
-            float: left;
-        }
-    #camera-final{
-        height: 10%;
-        bottom: 50px;
-        width: 100%;
-        position: absolute;
-    }
-        #camera-final-part2{
-            height: 60px;
-            margin-left: 30%;
-            margin-right: 30%;
-            border: 1px solid white;
-            border-radius: 40px;
-        }
-            #camera-final-layout-link{
-                text-decoration: none;
-                padding-top: 10px;
-                display: block;
-                text-align: center;
-                font-size: 30px;
-                font-style: normal;
-                color: white;
-                cursor: pointer;
-            }
-                #camera-final-layout-link:hover{
-                    padding-top: 0;
-                    color: black;
-                    font-size: 50px;
-                }
-                #camera-final-part2:hover{
-                    background: white;
-                    border: black;
-                }
+#camera-intro{
+    padding-top: 50px;
+    width: 100%;
+    height: 55%;
+}
+#camera-intro-first{
+    width: 100%;
+    height: 4.54%;
+}
+#camera-intro-first-name{
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+#camera-intro-second{
+    width: 100%;
+    height: 30.3%;
+}
+#camera-intro-second-slogan{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 45px;
+    text-align: center;
+    color: aliceblue;
+}
+#camera-intro-third{
+    width: 100%;
+    height: 45.45%;
+}
+#camera-intro-third-detail{
+    font-size: 25px;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+    color: aliceblue;
+}
+#camera-intro-fourth{
+    padding-top: 50px;
+    width: 100%;
+    height: 9.1%;
+    position: relative;
+}
+#camera-intro-fourth-one{
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+}
+#camera-intro-fourth-two{
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+}
+#camera-func{
+    padding-top: 30px;
+    width: 100%;
+    height: 15%;
+    position: relative;
+}
+#camera-func-part1{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#camera-func-part2{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+#camera-func-list{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#camera-func-list-tech-layout{
+    background-color: lightcoral;
+    border-radius:50%;
+    height: 100%;
+    width:25%;
+    float: left;
+}
+#camera-func-list-tech-layout-img{
+    width: 50%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#camera-func-list-tech-layout-cmt{
+    height: 50px;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: aliceblue;
+}
+#camera-func-list-zoom-layout{
+    background-color: lightcoral;
+    border-radius:50%;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+#camera-func-list-zoom-layout-img{
+    width: 50%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#camera-func-list-zoom-layout-cmt{
+    height: 50px;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: aliceblue;
+}
+#camera-func-list-sensor-layout{
+    background-color: lightcoral;
+    border-radius:50%;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+#camera-func-list-sensor-layout-img{
+    width: 50%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#camera-func-list-sensor-layout-cmt{
+    height: 50px;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: aliceblue;
+}
+#camera-func-list-mirror-layout{
+    background-color: lightcoral;
+    border-radius:50%;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+#camera-func-list-mirror-layout-img{
+    width: 50%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#camera-func-list-mirror-layout-cmt{
+    height: 50px;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: aliceblue;
+}
+#camera-func-part3{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#camera-final{
+    height: 10%;
+    bottom: 50px;
+    width: 100%;
+    position: absolute;
+}
+#camera-final-part2{
+    height: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+#camera-final-layout-link{
+    text-decoration: none;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+}
+#camera-final-layout-link:hover{
+    padding-top: 0;
+    color: black;
+    font-size: 50px;
+}
+#camera-final-part2:hover{
+    background: white;
+    border: black;
+}
 #efficiency{
     background-image: url("resources/HS_Image/Background_Image.PNG");
     width: 100%;
@@ -406,176 +406,176 @@ padding:0;}
     background-position: center center;
     background-size: cover;
 }
-    #efficiency-intro{
-        width: 100%;
-        height: 33.3333%;
-        border-style: none;
-        padding-top: 50px;
-    }
-        #efficiency-intro-first{
-            width: 100%;
-            height: 7.5%;
-        }
-            #efficiency-intro-first-name{
-                font-size: 30px;
-                text-align: center;
-                color: aliceblue;
-            }
-        #efficiency-intro-second{
-            width: 100%;
-            height: 37.5%;
-        }
-            #efficiency-intro-second-slogan{
-                font-size: 45px;
-                text-align: center;
-                margin-left: 30%;
-                margin-right: 30%;
-                color: aliceblue;
-            }
-        #efficiency-intro-third{
-            width: 100%;
-            height: 40%;
-        }
-            #efficiency-intro-third-detail{
-                font-size: 25px;
-                text-align: center;
-                color: aliceblue;
-                margin-right: 30%;
-                margin-left: 30%;
-            }
-        #efficiency-intro-fourth{
-            padding-top: 30px;
-            width: 100%;
-            height: 7.5%;
-        }
-            #efficiency-intro-fourth-detail{
-                font-size: 20px;
-                font-style: italic;
-                text-align: center;
-                color: aliceblue;
-                margin-left: 30%;
-                margin-right: 30%;
-            }
-    #efficiency-func{
-        width: 100%;
-        height: 15%;
-        position: relative;
-    }
-        #efficiency-func-part1{
-            width: 30%;
-            height: 100%;
-            float: left;
-        }
-        #efficiency-func-part2{
-            width: 40%;
-            height: 100%;
-            float: left;
-        }
-            #efficiency-func-list{
-                width: 100%;
-                height: 100%;
-                position: relative;
-            }
-                #efficiency-func-list-chip-layout{
-                    background-color: lightcoral;
-                    border-radius: 50%;
-                    height: 100%;
-                    width:33.33%;
-                    float: left;
-                }
-                    #efficiency-func-list-chip-layout-img{
-                        margin-top: 20px;
-                        max-width: 50%;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #efficiency-func-list-chip-layout-cmt{
-                        height: 50px;
-                        font-weight: bolder;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: white;
-                    }
-                #efficiency-func-list-memory-layout{
-                    background-color: lightcoral;
-                    border-radius: 50%;
-                    height: 100%;
-                    width: 33.33%;
-                    float: left;
-                }
-                    #efficiency-func-list-memory-layout-img{
-                        margin-top: 20px;
-                        max-width: 50%;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #efficiency-func-list-memory-layout-cmt{
-                        height: 50px;
-                        font-weight: bolder;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: white;
-                    }
-                #efficiency-func-list-resist-layout{
-                    background-color: lightcoral;
-                    border-radius:50%;
-                    height: 100%;
-                    width: 33.33%;
-                    float: left;
-                }
-                    #efficiency-func-list-resist-layout-img{
-                        margin-top: 20px;
-                        display: block;
-                        max-width: 50%;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    #efficiency-func-list-resist-layout-cmt{
-                        height: 50px;
-                        font-weight: bolder;
-                        font-size: 15px;
-                        text-align: center;
-                        display: block;
-                        color: white;
-                    }
-        #efficiency-func-part3{
-            width: 30%;
-            height: 100%;
-            float: left;
-        }
-    #efficiency-final{
-        height: 10%;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
-        #efficiency-final-part2{
-            height: 60px;
-            border: 1px solid white;
-            border-radius: 40px;
-            margin-left: 30%;
-            margin-right: 30%;
-        }
-            #efficiency-final-btn-layout-link {
-                padding-top: 10px;
-                display: block;
-                text-align: center;
-                text-decoration: none;
-                font-size: 30px;
-                font-style: normal;
-                color: white;
-                cursor: pointer;
-            }
-            #efficiency-final-btn-layout-link:hover{
-                padding-top: 0;
-                color: black;
-                font-size: 50px;
-            }
-            #efficiency-final-part2:hover{
-                background: white;
-                border: black;
-            }
+#efficiency-intro{
+    width: 100%;
+    height: 33.3333%;
+    border-style: none;
+    padding-top: 50px;
+}
+#efficiency-intro-first{
+    width: 100%;
+    height: 7.5%;
+}
+#efficiency-intro-first-name{
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+#efficiency-intro-second{
+    width: 100%;
+    height: 37.5%;
+}
+#efficiency-intro-second-slogan{
+    font-size: 45px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: aliceblue;
+}
+#efficiency-intro-third{
+    width: 100%;
+    height: 40%;
+}
+#efficiency-intro-third-detail{
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+#efficiency-intro-fourth{
+    padding-top: 30px;
+    width: 100%;
+    height: 7.5%;
+}
+#efficiency-intro-fourth-detail{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#efficiency-func{
+    width: 100%;
+    height: 15%;
+    position: relative;
+}
+#efficiency-func-part1{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#efficiency-func-part2{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+#efficiency-func-list{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#efficiency-func-list-chip-layout{
+    background-color: lightcoral;
+    border-radius: 50%;
+    height: 100%;
+    width:33.33%;
+    float: left;
+}
+#efficiency-func-list-chip-layout-img{
+    margin-top: 20px;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#efficiency-func-list-chip-layout-cmt{
+    height: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+#efficiency-func-list-memory-layout{
+    background-color: lightcoral;
+    border-radius: 50%;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+#efficiency-func-list-memory-layout-img{
+    margin-top: 20px;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#efficiency-func-list-memory-layout-cmt{
+    height: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+#efficiency-func-list-resist-layout{
+    background-color: lightcoral;
+    border-radius:50%;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+#efficiency-func-list-resist-layout-img{
+    margin-top: 20px;
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#efficiency-func-list-resist-layout-cmt{
+    height: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+#efficiency-func-part3{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#efficiency-final{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#efficiency-final-part2{
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#efficiency-final-btn-layout-link {
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+}
+#efficiency-final-btn-layout-link:hover{
+    padding-top: 0;
+    color: black;
+    font-size: 50px;
+}
+#efficiency-final-part2:hover{
+    background: white;
+    border: black;
+}
