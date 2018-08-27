@@ -123,13 +123,3 @@
 #timhieuthem{
     color : white;
 }
-#camera-final-layout-link{
-    text-decoration: none;
-    padding-top: 1px;
-    display: block;
-    text-align: center;
-    font-size: 30px;
-    font-style: normal;
-    color: black;
-    cursor: pointer;
-}
