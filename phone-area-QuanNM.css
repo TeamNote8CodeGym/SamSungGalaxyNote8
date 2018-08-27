@@ -66,3 +66,70 @@
     bottom: 0;
     margin: 0;
 }
+
+#bgr1{
+    width : 100%;
+    height : 1864px;
+    background : black;
+}
+#mota1{
+    padding-top : 100px;
+    color : White;
+    text-align : center;
+    font-family : arial;
+}
+#thietke{
+    color : White;
+    text-align : center;
+    margin-top : 100px;
+    font-family : arial;
+}
+#mota2{
+    color : White;
+    text-align : center;
+    font-size : 56px;
+    font-family : arial;
+}
+.cc{
+    width : 56px;
+    height : 56px;
+    float : left;
+    margin-left : 285px;
+    font-family : arial;
+}
+.cc1{
+    width : 150px;
+    height : 20px;
+    color : white;
+    font-size : 8px;
+    float : left;
+    margin-top : 20px;
+    margin-left : 230px;
+    font-family : arial;
+}
+#image{
+    width : 100%;
+    height : 970px;
+}
+#mota3{
+    width : 100%;
+    height : 90px;
+    color : white;
+    margin-top : 200px;
+    text-align: center;
+    font-size : 10px;
+    font-family : arial;
+}
+#timhieuthem{
+    color : white;
+}
+#camera-final-layout-link{
+    text-decoration: none;
+    padding-top: 1px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+    cursor: pointer;
+}
