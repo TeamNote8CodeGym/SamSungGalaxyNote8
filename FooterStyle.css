@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Footer{
+    width: 100%;
+    height: 150px;
+    background-color: #FFFFFF;
+}
+#Footer1{
+    /*border-bottom: darkgray thin solid;*/
+    height: 160px;
+}
+.Thongso{
+    width: 58%;
+    height: 140px;
+    float: left;
+    font-size: 13px;
+    color: black;
+    margin-left: 10%;
+    margin-top: 1%;
+    line-height: 24px;
+    font-family: Arial;
+
+}
+
+.C1{
+    width:1.5%;
+    height: 20px;
+    float: left;
+    color: #FFF01F;
+    font-size: 15px;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: black;
+    border: #FFF01F solid;
+    text-align: center;
+    font-family: Arial;
+    line-height: 20px;
+}
+
+.C2{
+    width:1.5%;
+    height: 20px;
+    float: left;
+    color: darkgray;
+    font-size: 15px;
+    margin-left:0.5%;
+    margin-top: 2%;
+    background-color: rgba(250,255,231,0.99);
+    border: darkgray solid;
+    text-align: center;
+    font-family: Arial;
+    line-height: 20px;
+}
+
+.Tocdomang{
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+#Footer2 {
+    height: 45px;
+    border: darkgray thin solid;
+}
+
+.Footer2_menu{
+    margin-left: 10%;
+}
+
+.Footer2_menu li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: Arial;
+    font-size:13px;
+    line-height: 45px;
+}
+
+#Footer2_menu_spec{
+    color: black;
+    font-weight: bold;
+}
+
+#Footer2_menu_trangchu a{
+    color: black;
+    text-decoration: none;
+}
+
+#Footer2_menu_smart a{
+    color: black;
+    text-decoration: none;
+}
+
+#Footer2_menu_note8 a{
+    color: black;
+    text-decoration: none;
+}
+
+#Footer3_1{
+    width: 20%;
+    height: 40px;
+    font-family: Arial;
+    font-size:12px;
+    margin-left: 80%;
+    margin-top: 20px;
+}
+
+#Footer3_2{
+    height: 200px;
+}
+#Footer3_2_bando{
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    line-height: 33px;
+}
+
+
+#Footer3_2_cuahang{
+    width: 20%;
+    float: left;
+    margin-top: 30px;
+    line-height: 33px;
+}
+
+
+#Footer3_2_hotro{
+    float: left;
+    width: 20%;
+    line-height: 33px;
+}
+
+.Footer3_2_tieude{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.Footer3_2_noidung{
+    font-size: 13px;
+    font-family: Arial;
+}
+
+#Footer3_2_bandotrang{
+    display: inline-block;
+}
+
+#Footer_3_2_bando_img {
+    width: 6px;
+    height: 10px;
+    background-image: url("image/image_footer/right-gray.svg");
+    display: inline-block;
+}
+#Footer3_2_qhndt{
+    display: inline-block;
+}
+
+#Footer_ttsk{
+    display: inline-block;
+}
+
+#Footer3_2_qhdautu_img{
+    width: 12px;
+    height: 12px;
+    background-image: url("image/image_footer/new-window.svg");
+    display: inline-block;
+}
+
+#Footer3_2_tintuc_img{
+    width: 12px;
+    height: 12px;
+    background-image: url("image/image_footer/new-window.svg");
+    display: inline-block;
+}
+
+#Footer3_2_hotrotructuyen{
+    display: inline-block;
+}
+
+#Footer3_2_hotrotructuyen1_img{
+    width: 16px;
+    height: 16px;
+    background-image: url("image/image_footer/hotrotructuyen.svg");
+    display: inline-block;
+}
+
+#Footer3_2_hotrotructuyen2_img{
+    width: 12px;
+    height: 12px;
+    background-image: url("image/image_footer/new-window.svg");
+    display: inline-block;
+}
+
+#Footer3_2_email{
+    display: inline-block;
+}
+
+#Footer3_2_email1_img{
+    width: 16px;
+    height: 16px;
+    background-image: url("image/image_footer/email.svg");
+    display: inline-block;
+}
+
+#Footer3_2_email2_img{
+    width: 12px;
+    height: 12px;
+    background-image: url("image/image_footer/new-window.svg");
+    display: inline-block;
+}
+
+#Footer3_2_dienthoai{
+    display: inline-block;
+}
+
+#Footer3_2_dienthoai_img{
+    width: 16px;
+    height: 16px;
+    background-image: url("image/image_footer/dienthoai.svg");
+    display: inline-block;
+}
+
+#Footer3_2_baohanh{
+    display: inline-block;
+}
+
+#Footer3_2_baohanh_img{
+    width: 16px;
+    height: 16px;
+    background-image: url("image/image_footer/trungtambaohanh.svg");
+    display: inline-block;
+}
+
+#Footer3_2_ketnoi{
+    float: left;
+    width: 20%;
+    line-height: 33px;
+}
+
+#Footer3_2_ketnoi_mxh{
+    margin-top: 13px;
+}
+
+#Footer3_2_fb_img{
+    width: 40px;
+    height: 40px;
+    background-image: url("image/image_footer/facebook.svg");
+    display: inline-block;
+
+}
+
+#Footer3_2_yt_img{
+    width: 40px;
+    height: 40px;
+    background-image: url("image/image_footer/youtube.svg");
+    display: inline-block;
+    margin-left: 13px;
+}
+
+#Footer3_2_ins_img{
+    width: 40px;
+    height: 40px;
+    background-image: url("image/image_footer/instagram.svg");
+    display: inline-block;
+    margin-left: 13px;
+}
+
+#Footer3_2_logo_img{
+    width: 215px;
+    height: 92px;
+    background-image: url("image/image_footer/logo.png");
+    margin-top: 18px;
+}
+
+#Footer3_3{
+    width: 90%;
+    height: 60px;
+    font-family: Arial;
+    font-size:12px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+#Footer4{
+    height: 230px;
+    background-color: #363636;
+}
+
+#Footer4_1{
+    height: 40px;
+    margin-left: 10%;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#Footer4_1_1{
+    display: inline-block;
+}
+
+#Footer4_1_2 {
+    display: inline-block;
+    margin-left: 2%;
+    background: url("image/image_footer/email.svg") no-repeat;
+    height: 20px;
+}
+
+
+/*#Footer4_1_2_img{*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*display: inline-block;*/
+    /*background-image: url("image/image_footer/new-window.svg");*/
+/*}*/
+
+
+#Footer4_1_3{
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#Footer4_1_4{
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#Footer4_1_5{
+    display: inline-block;
+    margin-left: 30%;
+}
+
+#Footer4_2 li{
+    margin-left: 10%;
+    font-size: 12px;
+    font-family: Arial;
+    color: darkgray;
+    list-style-type: none;
+    line-height: 22px;
+}
+
+/*#Footer4_tieude{*/
+    /*font-size: 15px;*/
+    /*font-family: Arial;*/
+    /*font-weight: bold;*/
+    /*color: #FFFFFF;*/
+/*}*/
+
+#Footer4_3{
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 12px;
+    font-family: Arial;
+    color: darkgray;
+    line-height: 22px;
+}

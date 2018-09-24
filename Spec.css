@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Spec_content{
+    background-color: #FFFFFF;
+}
+
+#Spec_content_1{
+    width: 100%;
+    height: 400px;
+    font-size: 75px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: 400px;
+}
+
+#Spec_content_2{
+    height: 65px;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: black 3px solid;
+}
+
+
+#Spec_content_3_1{
+    margin-left: 5%;
+    width: 20%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#Spec_content_3_2{
+    width: 15%;
+    height: 345px;
+    margin-left: 25%;
+    background-image: url("image/image_spec/den_huyen_bi.png");
+    display: inline-block;
+    line-height: 750px;
+    text-align: right;
+}
+
+#Spec_content_3_3{
+    width: 15%;
+    height: 345px;
+    margin-left: 5%;
+    background-image: url("image/image_spec/vang_ho_phach.png");
+    display: inline-block;
+    line-height: 750px;
+    text-align:right;
+}
+
+#Spec_content_3_2_1{
+    margin-top: 20px;
+    margin-left: 29%;
+    float: left;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#Spec_content_3_3_1{
+    margin-top: 20px;
+    margin-left: 14.5%;
+    float: left;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#Spec_content_border{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 60px;
+    border-bottom: dimgray 2px solid;
+}
+
+#Spec_content_4{
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Arial;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 28px;
+    color: navy;
+}
+
+#Spec_content_5{
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 150px;
+    border-bottom: black 2px solid;
+}
+
+#Spec_content_6_1{
+    margin-left: 5%;
+    width: 10%;
+    height: 30px;
+    background-image: url("image/image_footer/new-window.svg");
+    color: black;
+}
