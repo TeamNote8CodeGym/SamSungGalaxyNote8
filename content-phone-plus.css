@@ -355,17 +355,6 @@ svg {
     padding: 0;
 }
 
-/*.h3_type-phone-plus-page2{*/
-    /*font-family: Arial;*/
-    /*font-size: 56px;*/
-    /*width: 800px;*/
-    /*line-height: 64px;*/
-    /*display: inline-block;*/
-    /*text-align: center;*/
-    /*margin-top: 10px;*/
-    /*margin-bottom: 30px;*/
-    /*padding: 0;*/
-/*}*/
 
 .icon-inner-samsung-dex{
     font-family: Arial;
@@ -424,4 +413,641 @@ svg {
     background-image: none;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+/*Gear 360 + Gear VR*/
+
+.gear_360{
+    position: relative;
+    text-align: center;
+    height: 1080px;
+    border: black solid thin;
+    background-image: url("images/galaxy-note8_gear360_back.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.gear_360_content{
+    height: 290px;
+    margin-top: 150px;
+    /*border: white solid thin;*/
+    color: white;
+    text-align: center;
+}
+
+.icon-inner-samsung-gear{
+    font-family: Arial;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.icon-inner-samsung-gear figure figcaption em{
+    font-style: normal;
+    font-weight: bold;
+}
+
+.icon-inner-link-samsunggear{
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 23px;
+    background-size: 23px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.icon-inner-link-samsunggear:hover{
+    color: #41C7EB;
+}
+
+.icon-inner-samsung-gear .icon-inner-link-samsunggear figcaption{
+    background-size: 23px;
+    position: relative;
+    line-height: 23px;
+    padding-right: 33px;
+    margin-top: 15px;
+}
+
+.icon-inner-samsung-gear .icon-inner-link-samsunggear figcaption span{
+    display: inline-block;
+    position: relative;
+}
+
+
+.icon-inner-samsung-gear .icon-inner-link-samsunggear figcaption span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+}
+
+.gear_360_img{
+    position: absolute;
+    bottom: 0;
+    left: 370px;
+    height: 615px;
+    width: 625px;
+    /*border: white solid thin;*/
+}
+
+/*Accessories_Page*/
+
+.accessories-page-css{
+    text-align: center;
+}
+
+.h1_custom_accessories{
+    font-family: Arial;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.h2_custom_accessories{
+    font-family: Arial;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+
+.bumper_led_view{
+    position: relative;
+    margin-top: 100px;
+    height: 605px;
+}
+
+.acc_ledview1{
+    position: absolute;
+    left: -230px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: visible;
+}
+
+.acc_ledview2{
+    position: absolute;
+    left: -230px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: hidden;
+}
+
+
+.acc_ledview3{
+    position: absolute;
+    left: -230px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.acc_ledview4{
+    position: absolute;
+    left: -230px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.acc_ledview_content{
+    position: absolute;
+    left: 820px;
+    top: 180px;
+}
+
+.h2_acc_centent_ledview{
+    font-family: Arial;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 0;
+    text-align: left;
+}
+
+.div_opt_color{
+    display: inline;
+}
+
+.div_opt_color .div_float_display{
+    float: left;
+    margin: 0 10px;
+}
+
+
+.div_opt_1{
+    border: black solid thin;
+    border-radius: 50% 50%;
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.div_opt_2{
+    border: black solid thin;
+    border-radius: 50% 50%;
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.div_opt_3{
+    border: black solid thin;
+    border-radius: 50% 50%;
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.div_opt_4{
+    border: black solid thin;
+    border-radius: 50% 50%;
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.div_opt_color1_1{
+    border-radius: 50% 50%;
+    background: black;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: black thin solid;
+}
+
+.div_opt_color2_1{
+    border-radius: 50% 50%;
+    background: #5468A3;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: black thin solid;
+}
+
+.div_opt_color3_1{
+    border-radius: 50% 50%;
+    background: #654F94;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: black thin solid;
+}
+
+.div_opt_color4_1{
+    border-radius: 50% 50%;
+    background: #D9C49D;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: black thin solid;
+}
+
+
+.bumper_alcantara{
+    position: relative;
+    margin-top: 60px;
+    height: 720px;
+}
+
+.acc_alcantara_content{
+    position: absolute;
+    left: 270px;
+    top: 230px;
+}
+
+.acc_alcantara1{
+    position: absolute;
+    left: 820px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: visible;
+}
+
+.acc_alcantara2{
+    position: absolute;
+    left: 820px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.acc_alcantara3{
+    position: absolute;
+    left: 820px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.acc_alcantara4{
+    position: absolute;
+    left: 820px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.div_opt_color2_1_alcantara{
+    border-radius: 50% 50%;
+    background: #D67D95;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: black thin solid;
+}
+
+.div_opt_color3_1_alcantara{
+    border-radius: 50% 50%;
+    background: #405440;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: black thin solid;
+}
+
+.div_opt_color4_1_alcantara{
+    border-radius: 50% 50%;
+    background: #727E95;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: black thin solid;
+}
+
+.acc_bumper_2piece{
+    position: relative;
+    margin-top: 170px;
+    height: 925px;
+}
+
+.acc_2piece_content{
+    font-family: Arial;
+}
+
+.acc_2piece_content h2{
+    margin-bottom: 30px;
+}
+
+.acc_opt_2piece{
+    width: 175px;
+    height: 32px;
+    margin: 50px auto;
+}
+
+.acc_2piece_img{
+    position: relative;
+    height: 650px;
+}
+
+
+.acc_2piece_img_1{
+    position: absolute;
+    left: 320px;
+    top: 80px;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: visible;
+}
+
+.acc_2piece_img_2{
+    position: absolute;
+    left: 320px;
+    top: 80px;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.acc_2piece_img_3{
+    position: absolute;
+    left: 320px;
+    top: 80px;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    visibility: hidden;
+
+}
+
+.acc_2piece_hand1{
+    position: absolute;
+    width: 535px;
+    height: 630px;
+    top: -64px;
+    left: 600px;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/galaxy-note8-acc_2piece_hand_c1.png");
+    /*border: black thin solid;*/
+}
+
+.acc_2piece_hand2{
+    position: absolute;
+    width: 535px;
+    height: 630px;
+    top: -64px;
+    left: 600px;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/galaxy-note8-acc_2piece_hand_c2.png");
+}
+
+.acc_2piece_hand3{
+    position: absolute;
+    width: 535px;
+    height: 630px;
+    top: -64px;
+    left: 600px;
+    margin: 0;
+    padding: 0;
+    /*border: black thin solid;*/
+    background-image: url("images/galaxy-note8-acc_2piece_hand_c3.png");
+}
+
+.acc_bumper_stand{
+    position: relative;
+    height: 1050px;
+    /*border: black thin solid;*/
+}
+
+.acc_stand_content{
+    /*border: black thin solid;*/
+    font-family: Arial;
+}
+
+.acc_opt_stand{
+    width: 120px;
+    height: 32px;
+    margin: 20px auto;
+}
+
+.acc_protctive_img{
+    height: 650px;
+    /*border: black thin solid;*/
+}
+
+
+.acc_protctive_img_1{
+    z-index: -1;
+    width: auto;
+    height: auto;
+    margin: 50px auto;
+    /*border: black thin solid;*/
+    visibility: visible;
+}
+
+.acc_protctive_img_2{
+    z-index: -1;
+    width: auto;
+    height: auto;
+    margin: 50px auto;
+    visibility: hidden;
+}
+
+.acc_bumper_opacity{
+    height: 880px;
+    /*border: black thin solid;*/
+}
+
+.acc_opacity_content{
+    font-family: Arial;
+}
+.acc_opacity_img{
+    margin-top: 70px;
+    /*border: black thin solid;*/
+}
+
+
+/*Acc_changer*/
+
+.acc_changer{
+    height: 1900px;
+    background-color: black;
+    border: black solid thin;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.acc_changer_content{
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    /*border: white thin solid;*/
+}
+
+.acc_changer_content h2{
+    margin-bottom: 20px;
+}
+
+.acc_opt_changer{
+    width: 120px;
+    height: 32px;
+    margin: 30px auto;
+    /*border: black thin solid;*/
+}
+
+
+.div_opt_changer_1{
+    border: white solid thin;
+    border-radius: 50% 50%;
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.div_opt_changer_2{
+    border: white solid thin;
+    border-radius: 50% 50%;
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.div_opt_changer_color1_1{
+    border-radius: 50% 50%;
+    background: black;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: black thin solid;
+}
+
+.div_opt_changer_color2_1{
+    border-radius: 50% 50%;
+    background: #5468A3;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: black thin solid;
+}
+
+.acc_changer_img {
+    /*border: black thin solid;*/
+    height: 750px;
+}
+
+.acc_changer_img_1{
+    z-index: -1;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    /*border: black thin solid;*/
+    visibility: visible;
+}
+
+.acc_changer_img_2{
+    z-index: -1;
+    width: auto;
+    height: auto;
+    margin: 20px auto;
+    /*border: black thin solid;*/
+    visibility: hidden;
+}
+
+
+.acc_battery{
+    position: relative;
+    height: 650px;
+    border: black thin solid;
+}
+
+.acc_battery_img{
+    position: absolute;
+    left: 290px;
+    /*border: black thin solid;*/
+}
+
+.acc_battery_content{
+    position: absolute;
+    font-family: Arial;
+    left: 790px;
+    top: 160px;
+    /*border: black thin solid;*/
+    color: white;
+
+}
+
+.acc_battery_content h1 em{
+    font-style: normal;
+    font-size: 100px;
+}
+
+/*TODO:Gallery-CSS*/
+.gallery_page_content{
+    height: 8000px;
+    border: black thin solid;
+}
+
+.gallery_article{
+    height: 800px;
+    border: black thin solid;
+    margin-top: 120px;
+}
+
+.text_gallery_content{
+    font-family: Arial;
+    text-align: center;
+}
+
+
+.gallery_4k{
+    height: 800px;
+    border: black thin solid;
+}
+
+.gallery_light_low{
+    height: 800px;
+    border: black thin solid;
+}
+
+.gallery_auto_quality{
+    height: 800px;
+    border: black thin solid;
+}
+
+.gallery_image_quality{
+    height: 800px;
+    border: black thin solid;
+}
+
+.gallery_double_camera{
+    height: 800px;
+    border: black thin solid;
+}
+
+.gallery_4k_imgvideo{
+    height: 692px;
+    /*width: 1200px;*/
+    text-align: center;
 }
