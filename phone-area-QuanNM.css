@@ -123,3 +123,134 @@
 #timhieuthem{
     color : white;
 }
+
+
+#tit1
+{
+    width: 100%;
+    height: 470px;
+    font-family: Arial;
+    text-align: center;
+}
+#tit1 > h2
+{
+    font-size: 30px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+#tit1 > h1
+{
+    font-size: 70px;
+}
+#ig1
+{
+    text-align: center;
+    width: 170px;
+    height: 130px;
+    font-size: 15px;
+    float: left;
+    margin-left: 620px;
+    padding-top: 70px;
+}
+.para
+{
+    padding-top: 13px;
+}
+.ig
+{
+    text-align: center;
+    width: 170px;
+    height: 130px;
+    float: left;
+    padding-top: 70px;
+}
+#cpu
+{
+    font-family: Arial;
+    padding-top: 150px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    clear: left;
+}
+#cpu > h1
+{
+    padding-top: 10px;
+    font-size: 40px;
+}
+#cpu > p{
+    font-size: 18px;
+}
+#para1
+{
+    padding-top: 20px;
+}
+#inside
+{
+    width: 100%;
+    height: 861px;
+    display: flex;
+    margin: auto;
+}
+#anhcuano
+{
+    margin: auto;
+}
+#gigabit
+{
+    font-family: Arial;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    padding-top: 55px;
+}
+#gigabit > h1
+{
+    padding-top: 10px;
+    font-size: 35px;
+}
+#p3
+{
+    padding-top: 20px;
+}
+#handphone
+{
+    width: 76%;
+    height: 1080px;
+    background-image: url("//images.samsung.com/is/image/samsung/p5/vn/smartphones/galaxy-note8/performance/galaxy-note8_gigabit_speed.jpg?$ORIGIN_JPG$");
+}
+#speedreal
+{
+    text-align: center;
+    font-size:16px;
+    font-family: Arial;
+    margin-left: 15%;
+    padding-top: 35%;
+    width: 100%;
+    height: 300px;
+}
+#speedreal > h2
+{
+    padding-top: 100px;
+}
+#speedreal > h1
+{
+    padding-top: 13px;
+    font-size: 40px;
+}
+#p4
+{
+    padding-top: 13px;
+}
+#speedreal > p{
+    font-size: 17px;
+}
+.pgz
+{
+    padding-top: 5px;
+}
+#motion1
+{
+    padding-top: 60px;
+    margin-left: 33%;
+}
