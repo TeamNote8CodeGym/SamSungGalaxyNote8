@@ -734,6 +734,7 @@
     background: no-repeat;
     display: inline-block;
     margin-top: -10%;
+    padding-bottom: 18%;
 }
 #spen_page_ex_bg_pic{
     float: left;
@@ -782,6 +783,103 @@
     font-weight: bold;
     color: white;
     display: table-row;
+}
+#spen_page_ex_smooth{
+    height: 90%;
+    margin-right: 100px;
+    margin-left: 10%;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+#spen_page_ex_smooth_pic{
+    float: left;
+    width: 80%;
+}
+#spen_page_ex_smooth_pic_img{
+    height: 100%;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+#spen_page_ex_smooth_info{
+    float: left;
+    width: 40%;
+}
+#spen_page_ex_smooth_info_1_content{
+    font-size: 27px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+#spen_page_ex_smooth_info_2{
+    padding-top: 10px;
+}
+#spen_page_ex_smooth_info_2_content_1{
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+#spen_page_ex_smooth_info_2_content_2{
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+#spen_page_ex_smooth_info_3{
+    padding-top: 10px;
+}
+#spen_page_ex_smooth_info_3_content{
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+}
+#spen_page_ex_pen{
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+#spen_page_ex_pen_top{
+    float: left;
+    width: 50%;
+}
+#spen_page_ex_pen_top_img{
+    width: 100%;
+    height: 450px;
+}
+#spen_page_ex_pen_bot{
+    float: left;
+    width: 50%;
+}
+#spen_page_ex_pen_bot_img{
+    width: 100%;
+    height: 450px;
+}
+#spen_page_water_resist{
+    height: 100%;
+}
+#spen_page_water_resist_pic{
+    height: 80%;
+}
+#spen_page_water_resist_pic_img{
+    margin: auto;
+    display: block;
+}
+#spen_page_water_resist_detail{
+    height: 10%;
+}
+#spen_page_water_resist_detail_1{
+    text-decoration: black;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 15px;
+}
+#spen_page_water_resist_detail_2{
+    text-decoration: black;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 15px;
 }
 
 
