@@ -1,0 +1,875 @@
+*{margin:0;
+    padding:0;}
+#camera_tech{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("./resources/Camera_Page/galaxy_note8_camera_dual_bg_m.jpg");
+}
+#camera_tech_1_header_content{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 10%;
+    font-weight: bold;
+}
+#camera_tech_1_summary_content{
+    text-align: center;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: bold;
+}
+#camera_tech_1_feature{
+    padding-top: 5%;
+    position: relative;
+    padding-left: 25%;
+}
+#camera_tech_1_feature_zoom{
+    float: left;
+    width: 20%;
+}
+#camera_tech_1_feature_zoom_img{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_tech_1_feature_zoom_content{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_tech_1_feature_focus{
+    padding-left: 5%;
+    float: left;
+    width: 20%;
+}
+#camera_tech_1_feature_focus_img{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_tech_1_feature_focus_content{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_tech_1_feature_double{
+    float: left;
+    width: 20%;
+    padding-left: 5%;
+}
+#camera_tech_1_feature_double_img{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_tech_1_feature_double_content{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_tech_1_unique{
+    padding-top: 10%;
+    display: inline-block;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#camera_tech_1_unique_content{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+#camera_tech_1_unique_advantage{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+#camera_tech_1_proof{
+    padding-top: 40%;
+    padding-left: 20%;
+}
+#camera_tech_1_proof_img{
+    width: 70%;
+}
+#camera_tech_1_proof_hand{
+    margin-top: -43%;
+    margin-left: -5%;
+    width: 120%;
+}
+#camera_tech_1_detail{
+    margin-top: -30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20%;
+}
+#camera_tech_1_detail_content{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#camera_tech_1_detail_cmt{
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+#camera_tech_2{
+    background-image: url("./resources/Camera_Page/galaxy_note8_camera_av.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-left: -20%;
+    margin-right: -12.5%;
+    margin-top: -15%;
+}
+#camera_font_delete{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+}
+#camera_font_delete_name{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#camera_font_delete_slogan{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+#camera_font_delete_detail{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#camera_font_delete_cmt{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#camera_font_delete_proof{
+    margin-top: 10%;
+    height: 500px;
+    padding-bottom: 5%;
+    background-image: url(./resources/Camera_Page/galaxy_note8_camera_focus2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#camera_dual_photograph{
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: black;
+    padding-bottom: 10%;
+}
+#camera_dual_photograph_name{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#camera_dual_photograph_slogan{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+#camera_dual_photograph_detail{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#camera_dual_photograph_cmt{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#camera_dual_photograph_proof{
+    padding-top: 5%;
+}
+#camera_dual_photograph_proof_btn{
+    position: relative;
+    padding-left: 37%;
+    padding-bottom: 20%;
+}
+#camera_dual_photograph_proof_1{
+    float: left;
+}
+#camera_dual_photograph_proof_btn_on{
+    width: 65%;
+    margin-left: 17%;
+}
+#camera_dual_photograph_proof_1_text{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+}
+#camera_dual_photograph_proof_2{
+    float: left;
+    padding-left: 5%;
+}
+#camera_dual_photograph_proof_btn_off{
+    width: 65%;
+    margin-left: 17%;
+}
+#camera_dual_photograph_proof_2_text{
+    text-align: center;
+    color: white;
+    font-size: 20px;;
+}
+#camera_dual_photograph_proof_img{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+#camera_dual_photograph_proof_pic{
+    height: auto;
+    width: 75%;
+    margin-left: 12%;
+}
+#camera_dual_photograph_proof_phone{
+    width: 80%;
+    height: auto;
+    margin-top: -70%;
+    margin-left: 10%;
+}
+#camera_own_the_night{
+    padding-bottom: 10%;
+    background-image: url("./resources/Camera_Page/galaxy_note8_camera_night_bg.jpg");
+    background-size: cover;
+}
+#camera_own_the_night_intro{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#camera_own_the_night_intro_name{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+#camera_own_the_night_intro_feature{
+    position: relative;
+    padding-top: 5%;
+    padding-left: 25%;
+}
+#camera_own_the_night_intro_feature_1{
+    float: left;
+    width: 20%;
+}
+#camera_own_the_night_intro_feature_1_pic{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_own_the_night_intro_feature_1_detail{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_own_the_night_intro_feature_2{
+    float: left;
+    width: 20%;
+    padding-left: 5%;
+}
+#camera_own_the_night_intro_feature_2_pic{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_own_the_night_intro_feature_2_detail{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_own_the_night_intro_feature_3{
+    float: left;
+    width: 20%;
+    padding-left: 5%;
+}
+#camera_own_the_night_intro_feature_3_pic{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_own_the_night_intro_feature_3_detail{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_own_the_night_detail{
+    padding-top: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#camera_own_the_night_detail_1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#camera_own_the_night_detail_2{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+#camera_own_the_night_detail_3{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#camera_own_the_night_detail_4{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#camera_own_the_night_proof{
+    padding-top: 10%;
+}
+#camera_own_the_night_proof_pic{
+    margin-left: 32%;
+    width: 41%;
+}
+#camera_own_the_night_proof_phone{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: -23%;
+}
+#camera_front_catch_moment{
+    background-color: black;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#camera_front_catch_moment_intro{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#camera_front_catch_moment_intro_name{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+#camera_front_catch_moment_intro_cmt{
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#camera_front_catch_moment_intro_feature{
+    position: relative;
+    padding-top: 5%;
+    margin-left: 20%;
+}
+#camera_front_catch_moment_intro_feature_1{
+    float: left;
+    width: 20%;
+}
+#camera_front_catch_moment_intro_feature_1_pic{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_front_catch_moment_intro_feature_1_detail{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_front_catch_moment_intro_feature_2{
+    float: left;
+    width: 20%;
+}
+#camera_front_catch_moment_intro_feature_2_pic{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_front_catch_moment_intro_feature_2_detail{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_front_catch_moment_intro_feature_3{
+    float: left;
+    width: 20%;
+}
+#camera_front_catch_moment_intro_feature_3_pic{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_front_catch_moment_intro_feature_3_detail{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_front_catch_moment_intro_feature_4{
+    float: left;
+    width: 20%;
+}
+#camera_front_catch_moment_intro_feature_4_pic{
+    padding-left: 25%;
+    width: 50%;
+}
+#camera_front_catch_moment_intro_feature_4_detail{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_front_catch_moment_food{
+    padding-top: 20%;
+}
+#camera_front_catch_moment_food_slideshow{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+.camera_front_catch_moment_food_slideshow_part{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.camera_front_catch_moment_food_slideshow_pic{
+    width: 100%;
+    height: auto;
+}
+
+@-webkit-keyframes fade {
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+@keyframes fade {
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+@media only screen and(max-width: 300px) {
+    .prev, .next{font-size: 11px}
+}
+#camera_front_catch_moment_food_detail{
+    padding-top: 5%;
+}
+#camera_front_catch_moment_food_detail_name{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#camera_front_catch_moment_food_detail_cmt{
+    color: white;
+    padding-top: 2%;
+    font-size: 15px;
+}
+#camera_front_catch_moment_white_balance{
+    padding-top: 10%;
+}
+#camera_front_catch_moment_white_balance_slideshow{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+.camera_front_catch_moment_white_balance_slideshow_part{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+.prev2, .next2{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next2{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev2:hover, .next2:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot2{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active2, .dot2:hover{
+    background-color: #717171;
+}
+
+.fade2{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.camera_front_catch_moment_white_balance_slideshow_pic{
+    width: 100%;
+    height: auto;
+}
+@-webkit-keyframes fade2 {
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+@keyframes fade2 {
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+@media only screen and(max-width: 300px) {
+    .prev2, .next2{font-size: 11px}
+}
+#camera_front_catch_moment_white_balance_detail{
+    padding-top: 5%;
+}
+#camera_front_catch_moment_white_balance_detail_name{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#camera_front_catch_moment_white_balance_detail_cmt{
+    color: white;
+    padding-top: 2%;
+    font-size: 15px;
+}
+#camera_front_catch_moment_full_screen{
+    padding-top: 10%;
+}
+#camera_front_catch_moment_full_screen_pic{
+    width: 100%;
+}
+#camera_front_catch_moment_full_screen_detail{
+    padding-top: 5%;
+}
+#camera_front_catch_moment_full_screen_detail_name{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#camera_front_catch_moment_full_screen_detail_cmt{
+    color: white;
+    padding-top: 2%;
+    font-size: 15px;
+}
+#camera_front_catch_moment_slow{
+    padding-top: 10%;
+    position: relative;
+    height: 500px;
+}
+#camera_front_catch_moment_slow_1{
+    float: left;
+    width: 70%;
+}
+#camera_front_catch_moment_slow_video{
+    width: 100%;
+}
+#camera_front_catch_moment_slow_detail{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 25%;
+}
+#camera_front_catch_moment_slow_detail_name{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#camera_front_catch_moment_slow_detail_cmt{
+    color: white;
+    padding-top: 2%;
+    font-size: 15px;
+}
+#camera_selfie{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+}
+#camera_selfie_intro{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#camera_selfie_intro_name{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+#camera_selfie_intro_feature{
+    position: relative;
+    padding-top: 5%;
+}
+#camera_selfie_intro_feature_1{
+    float: left;
+    width: 20%;
+    padding-left: 20%;
+}
+#camera_selfie_intro_feature_1_pic{
+    padding-left: 27%;
+    width: 40%;
+}
+#camera_selfie_intro_feature_1_cmt{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_selfie_intro_feature_2{
+    float: left;
+    width: 20%;
+}
+#camera_selfie_intro_feature_2_pic{
+    padding-left: 27%;
+    width: 40%;
+}
+#camera_selfie_intro_feature_2_cmt{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_selfie_intro_feature_3{
+    float: left;
+    width: 20%;
+}
+#camera_selfie_intro_feature_3_pic{
+    padding-left: 27%;
+    width: 40%;
+}
+#camera_selfie_intro_feature_3_cmt{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#camera_selfie_detail{
+    padding-top: 20%;
+}
+#camera_selfie_detail_1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#camera_selfie_detail_2{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+#camera_selfie_detail_3{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#camera_selfie_detail_4{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#camera_selfie_detail_5{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    width: 80%;
+}
+#camera_gallery{
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: black;
+}
+#camera_gallery_intro{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#camera_gallery_intro_1{
+    text-align: center;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: bold;
+}
+#camera_gallery_intro_2{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#camera_gallery_intro_3{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#camera_gallery_detail {
+    padding-top: 10%;
+}
+#camera_gallery_detail_1{
+    width: 30%;
+}
+#camera_gallery_detail_1_name{
+    color: white;
+    font-size: 25px;
+}
+#camera_gallery_detail_1_slogan{
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+#camera_gallery_detail_1_detail{
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+#camera_gallery_detail_1_cmt{
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#camera_gallery_detail_1_pic{
+    padding-top: 5%;
+    margin-left: 50%;
+    width: 50%;
+}
+#camera_gallery_detail_2{
+    position: relative;
+    height: 400px;
+    margin-right: -12%;
+    margin-top: -20%;
+}
+#camera_gallery_detail_2_sd{
+    width: 20%;
+    margin-left: 5%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#camera_gallery_detail_2_phone{
+    width: 70%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#camera_lib_pic{
+    padding-top: 10%;
+    background-image: url("./resources/Camera_Page/galaxy_note8_camera_gallery_img_m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+#camera_lib_pic_name{
+    text-align: center;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: bold;
+}
+#camera_lib_pic_cmt{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#camera_lib_pic_btn{
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 50px;
+    margin-right: 40%;
+    border-radius: 100px;
+    border-style: groove;
+    border-color: white;
+}
+#camera_lib_pic_btn_link{
+    color: white;
+    margin-left: 30%;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    text-decoration: none;
+}
+#camera_lib_pic_btn:hover, #camera_lib_pic_btn_link:hover{
+    color: black;
+    background-color: white;
+}
