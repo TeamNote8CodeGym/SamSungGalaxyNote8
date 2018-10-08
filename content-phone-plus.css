@@ -1130,7 +1130,7 @@ svg {
     width: 20px;
     height: 20px;
     margin: 0 auto;
-    border: black thin solid;
+    /*border: black thin solid;*/
 }
 
 .div_opt_changer_color2_1{
@@ -1139,7 +1139,7 @@ svg {
     width: 20px;
     height: 20px;
     margin: 0 auto;
-    border: black thin solid;
+    /*border: black thin solid;*/
 }
 
 .acc_changer_img {
@@ -1195,14 +1195,14 @@ svg {
 
 /*TODO:Gallery-CSS*/
 .gallery_page_content{
-    height: 8000px;
-    border: black thin solid;
+    height: 8500px;
+    /*border: black thin solid;*/
 }
 
 .gallery_article{
     height: 800px;
-    border: black thin solid;
-    margin-top: 120px;
+    /*border: black thin solid;*/
+    margin-top: 50px;
 }
 
 .text_gallery_content{
@@ -1210,30 +1210,34 @@ svg {
     text-align: center;
 }
 
+.gallery_icon_inner{
+
+}
+
 
 .gallery_4k{
     height: 800px;
-    border: black thin solid;
+    /*border: black thin solid;*/
 }
 
 .gallery_light_low{
-    height: 800px;
-    border: black thin solid;
+    height: 1930px;
+    /*border: black thin solid;*/
 }
 
 .gallery_auto_quality{
-    height: 800px;
-    border: black thin solid;
+    height: 1930px;
+    /*border: black thin solid;*/
 }
 
 .gallery_image_quality{
-    height: 800px;
-    border: black thin solid;
+    height: 1200px;
+    /*border: black thin solid;*/
 }
 
 .gallery_double_camera{
-    height: 800px;
-    border: black thin solid;
+    height: 1100px;
+    /*border: black thin solid;*/
 }
 
 .gallery_4k_imgvideo{
@@ -1241,3 +1245,32 @@ svg {
     /*width: 1200px;*/
     text-align: center;
 }
+
+.gallery_light_low_column1 {
+    float: left;
+    width: 61.1%;
+    padding-left: 60px;
+
+}
+.gallery_light_low_column2 {
+    float: left;
+    width: 30%;
+    padding-right: 0px;
+    margin-left: 12px;
+
+}
+
+.gallery_light_low_column1 img {
+    margin-top: 12px;
+}
+
+.gallery_light_low_column2 img {
+    margin-top: 12px;
+}
+
+.gallery_light_low_row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
