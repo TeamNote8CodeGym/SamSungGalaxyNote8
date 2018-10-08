@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Galaxy Note 8</title>
+    <meta charset="UTF-8">
+    <title>Galaxy Note 8</title>
+    <link rel="stylesheet" href="Header.css" type="text/css"/>
+    <link rel="stylesheet" href="PerformanceStyle.css" type="text/css"/>
+    <link rel="stylesheet" href="FooterStyle.css" type="text/css"/>
     <link rel="stylesheet" href="content-phone-plus.css"/>
     <link rel="stylesheet" href="HomeStyle.css"/>
     <link rel="stylesheet" href="phone-area-QuanNM.css"/>
-    <link rel="stylesheet" href="Header.css" type="text/css"/>
-
-    <!-- Create favicon in Website-->
-
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -23,6 +24,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="//cdn.samsung.com/etc/designs/smg/global/imgs/favicon.ico">
+    <link rel="apple-touch-icon" href="//cdn.samsung.com/etc/designs/smg/global/imgs/app_ico.png" sizes="144x144">
     <link rel="manifest" href="favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
@@ -78,11 +81,11 @@
         <div class="navmenu">
             <div class="nav">
                 <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/">MUA NGAY</a>
-                <a class="active" href="https://www.samsung.com/vn/smartphones/galaxy-note8/">NỔI BẬT</a>
+                <a  href="https://www.samsung.com/vn/smartphones/galaxy-note8/">NỔI BẬT</a>
                 <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/design/">THIẾT KẾ</a>
                 <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/s-pen/">S PEN</a>
                 <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/camera/">CAMERA</a>
-                <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/performance/">HIỆU SUẤT</a>
+                <a class="active" href="https://www.samsung.com/vn/smartphones/galaxy-note8/performance/">HIỆU SUẤT</a>
                 <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/phone-plus/">PHONE+</a>
                 <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/accessories/">PHỤ KIỆN</a>
                 <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/gallery/">THƯ VIỆN HÌNH ẢNH</a>
@@ -91,67 +94,397 @@
         </div>
     </div>
 
-    <div id="tit1">
-        <h2>Hiệu suất</h2>
-        <h1>Hiệu Năng Mạnh Mẽ Tối</h1>
-        <h1>Ưu Hóa Trải Nghiệm</h1>
-        <h1>Người Dùng</h1>
-        <div id="ig1">
-            <img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_6gb_icon.png">
-            <p class="para"><strong>Bộ vi xử lí 10nm + 6GB</strong><br></p>
-            <p><strong>RAM</strong></p>
+    <!--<div id="tit1">-->
+        <!--<h2>Hiệu suất</h2>-->
+        <!--<h1>Hiệu Năng Mạnh Mẽ Tối</h1>-->
+        <!--<h1>Ưu Hóa Trải Nghiệm</h1>-->
+        <!--<h1>Người Dùng</h1>-->
+        <!--<div id="ig1">-->
+            <!--<img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_6gb_icon.png">-->
+            <!--<p class="para"><strong>Bộ vi xử lí 10nm + 6GB</strong><br></p>-->
+            <!--<p><strong>RAM</strong></p>-->
+        <!--</div>-->
+        <!--<div class="ig">-->
+            <!--<img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_gigabit-lte-wifi_icon.png">-->
+            <!--<p class="para"><strong>Gigabit LTE +</strong><br></p>-->
+            <!--<p><strong>Gigabit Wi-Fi</strong></p>-->
+        <!--</div>-->
+        <!--<div class="ig">-->
+            <!--<img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_vulkan-api-gaming_icon.png">-->
+            <!--<p class="para"><strong>Trải nghiệm</strong><br></p>-->
+            <!--<p><strong>game trên nền</strong><br></p>-->
+            <!--<p><strong>tảng Vulkan</strong></p>-->
+        <!--</div>-->
+        <!--<div class="ig">-->
+            <!--<img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_quality-sound_icon.png">-->
+            <!--<p class="para"><strong>Âm thanh chất lượng</strong><br></p>-->
+            <!--<p><strong>cao</strong></p>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div id="cpu">-->
+        <!--<h2>Bộ Vi Xử Lí 10nm + 6GB RAM</h2>-->
+        <!--<h1>Tốc Độ Vượt Trội</h1>-->
+        <!--<p id="para1">Trải nghiệm game đồ họa đỉnh cao và chuyển đổi giữa các ứng dụng mượt mà. Galaxy Note8 với vi xử lí 10nm<br></p>-->
+        <!--<p>cùng 6GB RAM mạnh mẽ giúp vận hành mọi tác vụ liên tục và siêu tốc.</p>-->
+    <!--</div>-->
+
+    <!--<div id="inside">-->
+        <!--<div id="anhcuano">-->
+            <!--<img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_drives.jpg">-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div id="gigabit">-->
+        <!--<h2>Gigabit LTE + Gigabit Wi-Fi</h2>-->
+        <!--<h1>Dữ Liệu Được Xử Lí Với Tốc Độ Gigabit</h1>-->
+        <!--<p id="p3">Duyệt web, tải dữ liệu và xem video với tốc độ cao trở nên nhanh chóng, dễ dàng hơn. Galaxy Note8 hỗ</p>-->
+        <!--<p>trợ đồng thời Gigabit LTE và Gigabit Wi-Fi mang lại cho bạn tốc độ kết nối ưu việt,</p>-->
+        <!--<p>khai thác mạng tốc độ cao đến 1 gigabit/giây.</p>-->
+    <!--</div>-->
+
+    <!--<div id="handphone">-->
+        <!--<div id="speedreal">-->
+            <!--<p>*Tốc độ thực tế có thể thay đổi tùy theo quốc gia, nhà mạng, hệ</p>-->
+            <!--<p>thống mạng, đơn vị cung cấp nội dung và các yếu tố liên quan khác.</p>-->
+            <!--<h2>Trải Nghiệm Game Trên Nền Tảng Đồ Họa Vulkan</h2>-->
+            <!--<h1>Trải Nghiệm Trò Chơi Tốc Độ Cao</h1>-->
+            <!--<p id="p4">Nhờ có nền tảng Vulkan, các trò chơi nặng đồ họa trở nên nhẹ nhàng hơn với Galaxy</p>-->
+            <!--<p class="pgz">Note8. Nền tảng Vulkan hỗ trợ kết nối nhanh chóng giữa xử lí và đồ họa mang đến cho</p>-->
+            <!--<p class="pgz">người dùng trải nghiệm mượt mà nhưng vẫn đảm bảo tiết kiệm pin tối đa.</p>-->
+        <!--</div>-->
+        <!--<div id="motion1">-->
+            <!--<img src="resources/Capture.PNG">-->
+        <!--</div>-->
+    <!--</div>-->
+    <div id="performance_intro">
+        <div id="performance_intro_1">
+            <p class="nameBlack">Hiệu Suất</p>
+            <p class="headerBlack">Hiệu Năng Mạnh Mẽ Tối Ưu Hóa Trải Nghiệm Người Dùng</p>
+            <div class="horizontal">
+                <div class="childHorizontal">
+                    <img class="imgChildBlack" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_6gb_icon.png">
+                    <p class="cmtChildBlack">Bộ vi xử lí 10nm + 6GB RAM</p>
+                </div>
+                <div class="childHorizontal">
+                    <img class="imgChildBlack" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_gigabit-lte-wifi_icon.png">
+                    <p class="cmtChildBlack">Gigabit LTE + Gigabit Wi-Fi</p>
+                </div>
+                <div class="childHorizontal">
+                    <img class="imgChildBlack" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_vulkan-api-gaming_icon.png">
+                    <p class="cmtChildBlack">Trải nghiệm game trên nền tảng Vulkan</p>
+                </div>
+                <div class="childHorizontal">
+                    <img class="imgChildBlack" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_quality-sound_icon.png">
+                    <p class="cmtChildBlack">Âm thanh chất lượng cao</p>
+                </div>
+            </div>
         </div>
-        <div class="ig">
-            <img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_gigabit-lte-wifi_icon.png">
-            <p class="para"><strong>Gigabit LTE +</strong><br></p>
-            <p><strong>Gigabit Wi-Fi</strong></p>
+        <div id="performance_intro_2">
+            <p class="nameBlack">Bộ Vi Xử Lí 10nm + 6GB RAM</p>
+            <p class="h2Black">Tốc Độ Vượt Trội</p>
+            <p class="cmtBlack">Trải nghiệm game đồ họa đỉnh cao và chuyển đổi giữa các ứng dụng mượt mà. Galaxy Note8 với vi xử lí 10nm cùng 6GB RAM mạnh mẽ giúp vận hành mọi tác vụ liên tục và siêu tốc.</p>
+            <div class="imgContainer">
+                <img class="imgFullDiv" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_drives.jpg">
+            </div>
         </div>
-        <div class="ig">
-            <img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_vulkan-api-gaming_icon.png">
-            <p class="para"><strong>Trải nghiệm</strong><br></p>
-            <p><strong>game trên nền</strong><br></p>
-            <p><strong>tảng Vulkan</strong></p>
+        <div id="performance_intro_3">
+            <p class="nameBlack">Gigabit LTE + Gigabit Wi-Fi</p>
+            <p class="h2Black">Dữ Liệu Được Xử Lí Với Tốc Độ Gigabit</p>
+            <p class="cmtBlack">Duyệt web, tải dữ liệu và xem video với tốc độ cao trở nên nhanh chóng, dễ dàng hơn. Galaxy Note8 hỗ trợ đồng thời Gigabit LTE và Gigabit Wi-Fi mang lại cho bạn tốc độ kết nối ưu việt,
+                khai thác mạng tốc độ cao đến 1 gigabit/giây.</p>
+            <div id="performance_intro_3_img">
+                <img id="performance_intro_3_img_src" src="http://images.samsung.com/is/image/samsung/p5/vn/smartphones/galaxy-note8/performance/galaxy-note8_gigabit_speed.jpg?$ORIGIN_JPG$">
+            </div>
+            <p id="performance_intro_3_cmt">*Tốc độ thực tế có thể thay đổi tùy theo quốc gia, nhà mạng, hệ thống mạng, đơn vị cung cấp nội dung và các yếu tố liên quan khác.</p>
         </div>
-        <div class="ig">
-            <img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_quality-sound_icon.png">
-            <p class="para"><strong>Âm thanh chất lượng</strong><br></p>
-            <p><strong>cao</strong></p>
+        <div id="performance_intro_4">
+            <p class="nameBlack">Trải Nghiệm Game Trên Nền Tảng Đồ Họa Vulkan</p>
+            <p class="h2Black">Trải Nghiệm Trò Chơi Tốc Độ Cao</p>
+            <p class="cmtBlack">Nhờ có nền tảng Vulkan, các trò chơi nặng đồ họa trở nên nhẹ nhàng hơn với Galaxy Note8. Nền tảng Vulkan hỗ trợ kết nối nhanh chóng giữa xử lí và đồ họa mang đến cho người dùng trải nghiệm mượt mà nhưng vẫn đảm bảo tiết kiệm pin tối đa.</p>
+            <div class="imgContainer">
+                <img class="imgFullDiv" src="resources/performance/game_spaceship.PNG">
+            </div>
+            <p class="cmtDetail">*Bật chế độ Toàn Màn Hình trong phần Cài Đặt để thưởng thức hình ảnh lớn hơn khi chơi game.</p>
+        </div>
+        <div id="performance_intro_5">
+            <div id="performance_intro_5_1">
+                <img id="performance_intro_5_1_img" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_sound_without-google.jpg">
+            </div>
+            <div id="performance_intro_5_2">
+                <p class="nameBlack">Âm Thanh Chất Lượng Cao</p>
+                <p class="h2Black">Âm Nhạc Theo Từng Khoảnh Khắc</p>
+                <p class="cmtBlack">Một bản nhạc hay phải được truyền tải từ một thiết bị tai nghe đạt chuẩn. Galaxy Note8 đi cùng tai nghe được chế tác bởi AKG, tích hợp với 11 loa woofers (siêu trầm) và 8 loa tweeters (siêu bổng).</p>
+            </div>
         </div>
     </div>
-
-    <div id="cpu">
-        <h2>Bộ Vi Xử Lí 10nm + 6GB RAM</h2>
-        <h1>Tốc Độ Vượt Trội</h1>
-        <p id="para1">Trải nghiệm game đồ họa đỉnh cao và chuyển đổi giữa các ứng dụng mượt mà. Galaxy Note8 với vi xử lí 10nm<br></p>
-        <p>cùng 6GB RAM mạnh mẽ giúp vận hành mọi tác vụ liên tục và siêu tốc.</p>
-    </div>
-
-    <div id="inside">
-        <div id="anhcuano">
-            <img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_drives.jpg">
+    <div id="performance_detail">
+        <div id="performance_detail_1">
+            <p class="headerWhite">Tự Do Trải Nghiệm Không Giới Hạn</p>
+            <div class="horizontalWhite">
+                <div class="childHorizontalWhite">
+                    <img class="imgChildWhite" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_expandable-memory_icon.png">
+                    <p class="cmtChildWhite">Bộ nhớ có thể mở rộng</p>
+                </div>
+                <div class="childHorizontalWhite">
+                    <img class="imgChildWhite" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_dual-sim_icon.png">
+                    <p class="cmtChildWhite">SIM kép</p>
+                </div>
+                <div class="childHorizontalWhite">
+                    <img class="imgChildWhite" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_fast-wireless-charging_icon.png">
+                    <p class="cmtChildWhite">Sạc không dây</p>
+                </div>
+                <div class="childHorizontalWhite">
+                    <img class="imgChildWhite" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_water-and-dust-registant_icon.png">
+                    <p class="cmtChildWhite">Khả năng Kháng nước và kháng bụi</p>
+                </div>
+                <div class="childHorizontalWhite">
+                    <img class="imgChildWhite" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_biometric-authentication_icon.png">
+                    <p class="cmtChildWhite">Bảo mật sinh trắc học</p>
+                </div>
+            </div>
+        </div>
+        <div id="performance_detail_2">
+            <div id="performance_detail_2_text">
+                <p class = "nameWhite">Bộ Nhớ Có Thể Mở Rộng</p>
+                <p class="h2White">Không Gian Lưu Trữ Vô Tận</p>
+                <p class="cmtWhite">Điện thoại chứa đựng một phần cuộc sống của bạn, lưu giữ những điều ý nghĩa, từ ảnh chụp, video đến âm nhạc, ứng dụng và dữ liệu. Với Galaxy Note8, bạn gần như không cần xóa bỏ bất kì thứ gì, vì bộ nhớ trên Galaxy Note8 có thể mở rộng đến 256GB bằng thẻ nhớ ngoài microSD, bạn sẽ luôn có dung lượng trống để lưu trữ thêm.</p>
+                <p class="cmtDetailWhite">*Thẻ MicroSD được bán riêng.</p>
+            </div>
+            <div id="performance_detail_2_pic">
+                <img id="performance_detail_2_pic_src" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_memory.jpg">
+            </div>
+        </div>
+        <div id="performance_detail_3">
+            <div id="performance_detail_3_1">
+                <img id="performance_detail_3_1_pic" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_sim.jpg">
+            </div>
+            <div id="performance_detail_3_2">
+                <p class="nameWhite">SIM Kép</p>
+                <p class="h2White">Lựa Chọn Dành Cho Bạn</p>
+                <p class="cmtWhite">Với phiên bản SIM kép trên Galaxy Note8, bạn có thể dùng cùng lúc 02 SIM, sử dụng 02 số liên lạc riêng biệt cho đời sống cá nhân và công việc. Hay bạn có thể sử dụng một SIM để gọi điện, nhắn tin và SIM còn lại để dùng dữ liệu mạng, hoặc giữ riêng một SIM nội địa khi ra nước ngoài. Với SIM kép, bạn sẽ là người làm chủ trong mọi tình huống.</p>
+                <p class="cmtDetailWhite">*Phiên bản hỗ trợ SIM kép được phân phối tại một số thị trường nhất định và có thể khác biệt theo quốc gia và/hoặc nhà cung cấp.</p>
+            </div>
+        </div>
+        <div id="performance_detail_4">
+            <div id="performance_detail_4_1">
+                <p class="nameWhite">Sạc Không Dây</p>
+                <p class="h2White">Sạc Pin Đơn Giản và Thuận Tiện</p>
+                <p class="cmtWhite">Không còn phải lo nghĩ về dây cáp khi sạc điện thoại. Với bộ sạc không dây của Galaxy Note8, tất cả những gì bạn cần làm là cần đặt máy xuống.</p>
+                <p class="cmtDetailWhite">*Bộ sạc không dây được bán riêng</p>
+            </div>
+            <div id="performance_detail_4_2">
+                <img id="performance_detail_4_2_pic" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_wireless-charger.jpg">
+            </div>
+        </div>
+        <div id="performance_detail_5">
+            <div id="performance_detail_5_1">
+                <img id="performance_detail_5_1_1" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_water_device_m.jpg">
+                <img id="performance_detail_5_1_2" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_water_phone_m.png">
+                <img id="performance_detail_5_1_3" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_water_s-pen_m.png">
+                <img id="performance_detail_5_1_4" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_water_1_m.png">
+                <img id="performance_detail_5_1_5" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_water_2_m.png">
+                <img id="performance_detail_5_1_6" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_water_3_m.png">
+            </div>
+            <div id="performance_detail_5_2">
+                <p class="nameWhite">Kháng Nước và Kháng bụi</p>
+                <p class="h2White">Không Giới Hạn Điểm Đến</p>
+                <p class="cmtWhite">Nhờ khả năng kháng nước và kháng bụi của Galaxy Note8, bạn có thể liên tục sử dụng máy ngay cả khi trời mưa.</p>
+                <p class="cmtDetailWhite">*Galaxy Note8 và S Pen đều được thừa hưởng tính năng kháng nước và kháng bụi chuẩn IP68. Độ chịu nước của thiết bị được đánh giá dựa trên bài kiểm tra ngâm nước, được thực hiện ở độ sâu 1.5 mét trong suốt 30 phút.</p>
+            </div>
+        </div>
+        <div id="performance_detail_6">
+            <div id="performance_detail_6_1">
+                <p class="nameWhite">Quét Mống Mắt + Bảo Mật Knox</p>
+                <p class="h2White">Mở Cực Nhanh</p>
+                <p class="cmtWhite">Mở khóa cực nhanh bằng mắt, khuôn mặt hay mã vân tay chỉ với 1 lần chạm. Và dưới sự bảo vệ của Samsung Knox, mọi dữ liệu bảo mật sinh trắc học của bạn, cùng tất cả những dữ liệu có trên điện thoại của bạn sẽ được an toàn tuyệt đối.</p>
+                <div id="performance_detail_6_feature">
+                    <div id="performance_detail_6_feature_group_1">
+                        <div class="img-p">
+                            <img class="imgLog" src="resources/performance/eye_log.PNG">
+                            <p class="cmtLog">Bảo mật mống mắt</p>
+                        </div>
+                        <div class="img-p">
+                            <img class="imgLog" src="resources/performance/screen_log.PNG">
+                            <p class="cmtLog">Nhận diện khuôn mặt</p>
+                        </div>
+                        <div class="img-p">
+                            <img class="imgLog" src="resources/performance/pass_log.PNG">
+                            <p class="cmtLog">Mật khẩu</p>
+                        </div>
+                    </div>
+                    <div id="performance_detail_6_feature_group_2">
+                        <div class="img-p">
+                            <img class="imgLog" src="resources/performance/finger_log.PNG">
+                            <p class="cmtLog">Bảo mật vân tay</p>
+                        </div>
+                        <div class="img-p">
+                            <img class="imgLog" src="resources/performance/pic_log.PNG">
+                            <p class="cmtLog">Hình vẽ</p>
+                        </div>
+                        <div class="img-p">
+                            <img class="imgLog" src="resources/performance/pin_log.PNG">
+                            <p class="cmtLog">Mã PIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="performance_detail_6_1_detail">
+                    <img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_knox.png">
+                </div>
+            </div>
+            <div id="performance_detail_6_2">
+                <img src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_face.png">
+                <img style="margin-top: -100%" src="//image.samsung.com/vn/smartphones/galaxy-note8/performance/images/galaxy-note8_lock-screen.png">
+            </div>
         </div>
     </div>
+    <section class="div_jump_control">
+        <article class="div_jump_control_buy">
+            <div class="prev">
+                <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/camera/" class="a_show-hide_img">
+                    <div class="prev_content">
+                        <h4 class="h4_jump_type" style="margin-left: 50px">Trở về</h4>
+                        <h3 class="h3_jump_type" style="margin-left: 20px"><i class="i_left_transform"></i> Camera
+                        </h3>
+                    </div>
+                </a>
 
-    <div id="gigabit">
-        <h2>Gigabit LTE + Gigabit Wi-Fi</h2>
-        <h1>Dữ Liệu Được Xử Lí Với Tốc Độ Gigabit</h1>
-        <p id="p3">Duyệt web, tải dữ liệu và xem video với tốc độ cao trở nên nhanh chóng, dễ dàng hơn. Galaxy Note8 hỗ</p>
-        <p>trợ đồng thời Gigabit LTE và Gigabit Wi-Fi mang lại cho bạn tốc độ kết nối ưu việt,</p>
-        <p>khai thác mạng tốc độ cao đến 1 gigabit/giây.</p>
-    </div>
+                <div class="div_prev_content_img">
+                    <img style="margin-top: -20%" src="resources/images-phone_plus-smart_switch/galaxy_note8_jump_camera.png">
+                </div>
 
-    <div id="handphone">
-        <div id="speedreal">
-            <p>*Tốc độ thực tế có thể thay đổi tùy theo quốc gia, nhà mạng, hệ</p>
-            <p>thống mạng, đơn vị cung cấp nội dung và các yếu tố liên quan khác.</p>
-            <h2>Trải Nghiệm Game Trên Nền Tảng Đồ Họa Vulkan</h2>
-            <h1>Trải Nghiệm Trò Chơi Tốc Độ Cao</h1>
-            <p id="p4">Nhờ có nền tảng Vulkan, các trò chơi nặng đồ họa trở nên nhẹ nhàng hơn với Galaxy</p>
-            <p class="pgz">Note8. Nền tảng Vulkan hỗ trợ kết nối nhanh chóng giữa xử lí và đồ họa mang đến cho</p>
-            <p class="pgz">người dùng trải nghiệm mượt mà nhưng vẫn đảm bảo tiết kiệm pin tối đa.</p>
+            </div>
+
+            <div class="next">
+                <a href="https://www.samsung.com/vn/smartphones/galaxy-note8/phone-plus/" class="a_show-hide_img">
+                    <div class="next_content">
+                        <h4 class="h4_jump_type" style="margin-left: 26px">Tiếp theo</h4>
+                        <h3 class="h3_jump_type">Phone+<i class="i_right_transform"></i></h3>
+                    </div>
+                </a>
+
+                <div class="div_next_content_img">
+                    <img src="resources/images-phone_plus-smart_switch/galaxy-note8_phone-plus.png">
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div class="div_buy_now_text">
+                <h3 class="h3_jump_type1">Sẵn sàng để nâng cấp?</h3>
+
+                <div class="btn-type3">
+                    <a>MUA NGAY</a>
+                </div>
+            </div>
+
+            <div class="div_buy_now_img">
+                <img src="resources/images-phone_plus-smart_switch/buy-now_banner_galaxy-note8.jpg">
+            </div>
+        </article>
+    </section>
+    <div id="Footer">
+        <div id="Footer1">
+            <div class="Thongso">
+                <p>*Mọi thông số và mô tả được cung cấp ở đây có thể khác với thông số và mô tả thực tế của sản phẩm. Samsung bảo lưu quyền thay đổi văn bản này và sản phẩm mô tả ở đây bất kỳ lúc nào mà Samsung không có trách nhiệm phải thông báo về sự thay đổi đó. Tất cả chức năng, đặc tính, thông số kỹ thuật, giao diện người dùng (GUI) và các thông tin khác về sản phẩm được cung cấp trong văn bản này bao gồm nhưng không giới hạn đến các lợi ích, thiết kế, giá cả, thành phần, hiệu năng, sự hiện hữu và khả năng của sản phẩm có thể thay đổi mà không cần thông báo hay phải gánh chịu bất kỳ trách nhiệm nào. Nội dung trên màn hình là hình mô phỏng và chỉ cho mục đích minh họa.
+                </p>
+            </div>
+            <div class="C1">C
+            </div>
+            <div class="C2">C
+            </div>
+            <div class="Tocdomang">
+                <select>
+                    <option>TỐC ĐỘ MẠNG CỦA TÔI (CAO)</option>
+                    <option>Chế độ băng thông cao</option>
+                    <option>Chế độ băng thông thấp</option>
+                </select>
+            </div>
         </div>
-        <div id="motion1">
-            <img src="resources/Capture.PNG">
+        <div id="Footer2">
+            <ul class="Footer2_menu">
+                <li id="Footer2_menu_trangchu"><a href="https://www.samsung.com/vn/"> Trang chủ /</a>  </li>
+                <li id="Footer2_menu_smart"><a href="https://www.samsung.com/vn/smartphones/"> Smartphones / </a></li>
+                <li id="Footer2_menu_note8"><a href="https://www.samsung.com/vn/smartphones/galaxy-note8/"> Galaxy Note8 / </a></li>
+                <li id="Footer2_menu_spec">Spec+</li>
+            </ul>
+        </div>
+        <div id="Footer3">
+            <div id="Footer3_1">Trở lại đầu trang ^</div>
+            <div id="Footer3_2">
+                <div id="Footer3_2_bando">
+                    <div>
+                        <div id="Footer3_2_bandotrang" class="Footer3_2_tieude">Bản đồ trang</div>
+                        <div id="Footer_3_2_bando_img"></div>
+                    </div>
+                    <div class="Footer3_2_noidung">Thông Tin Samsung</div>
+                    <div>
+                        <div id="Footer3_2_qhndt" class="Footer3_2_noidung">Quan Hệ Nhà Đầu Tư</div>
+                        <div id="Footer3_2_qhdautu_img"></div>
+                    </div>
+                    <div>
+                        <div id="Footer_ttsk" class="Footer3_2_noidung">Tin Tức & Sự Kiện</div>
+                        <div id="Footer3_2_tintuc_img"></div>
+                    </div>
+                    <div class="Footer3_2_noidung">Tìm Cửa Hàng</div>
+                    <div class="Footer3_2_noidung">Liên Hệ</div>
+                </div>
+                <div id="Footer3_2_cuahang">
+                    <div class="Footer3_2_noidung">Cửa Hàng Trải Nghiệm SamSung</div>
+                    <div class="Footer3_2_noidung">Ưu Đãi Độc Quyền</div>
+                </div>
+                <div id="Footer3_2_hotro">
+                    <div class="Footer3_2_tieude">Bạn Cần Hỗ Trợ?</div>
+                    <div>
+                        <div id="Footer3_2_hotrotructuyen1_img"></div>
+                        <div id="Footer3_2_hotrotructuyen" class="Footer3_2_noidung">Hỗ Trợ Trực Tuyến </div>
+                        <div id="Footer3_2_hotrotructuyen2_img"></div>
+                    </div>
+                    <div>
+                        <div id="Footer3_2_email1_img"></div>
+                        <div id="Footer3_2_email" class="Footer3_2_noidung">E-mail</div>
+                        <div id="Footer3_2_email2_img"></div>
+                    </div>
+                    <div>
+                        <div id="Footer3_2_dienthoai_img"></div>
+                        <div id="Footer3_2_dienthoai" class="Footer3_2_noidung">Điện Thoại</div>
+                    </div>
+                    <div>
+                        <div id="Footer3_2_baohanh_img"></div>
+                        <div id="Footer3_2_baohanh" class="Footer3_2_noidung">Trung Tâm Bảo Hành</div>
+                    </div>
+                </div>
+                <div id="Footer3_2_ketnoi">
+                    <div class="Footer3_2_tieude">Kết nối với chúng tôi</div>
+                    <div id="Footer3_2_ketnoi_mxh">
+                        <div id="Footer3_2_fb_img"></div>
+                        <div id="Footer3_2_yt_img"></div>
+                        <div id="Footer3_2_ins_img"></div>
+                    </div>
+                    <div id="Footer3_2_logo_img"></div>
+                </div>
+            </div>
+            <div id="Footer3_3">Copyright© 1995-2018 SAMSUNG All Rights Reserved.</div>
+        </div>
+        <div id="Footer4">
+            <div id="Footer4_1">
+                <div id="Footer4_1_1" class="Footer4_tieude">TRỢ GIÚP TRUY CẬP</div>
+                <div id="Footer4_1_2" class="Footer4_tieude">ĐIỀU KHOẢN & ĐIỀU KIỆN </div>
+                <!--<div id="Footer4_1_2_img" class="Footer4_tieude"></div>-->
+                <div id="Footer4_1_3" class="Footer4_tieude">BẢO MẬT</div>
+                <div id="Footer4_1_4" class="Footer4_tieude">PHÁP LÝ</div>
+                <div id="Footer4_1_5" class="Footer4_tieude">VIỆT NAM/TIẾNG VIỆT</div>
+            </div>
+            <div id="Footer4_2">
+                <ul>
+                    <li>Bản quyền © 1995-2018 Samsung bảo lưu mọi quyền.</li>
+                    <li>Công ty TNHH Điện Tử Samsung Vina</li>
+                    <li>Giấy CNĐT: 411043002319, do UBND TP. Hồ Chí Minh cấp ngày 28/8/2007</li>
+                    <li>Địa chỉ: Số 2, đường Hải Triều, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</li>
+                    <li>Điện Thoại: +84-2839157310</li>
+                </ul>
+            </div>
+            <div id="Footer4_3">Trang web này được hiển tốt nhất khi sử dụng trình duyệt Microsoft Internet Explorer 9 hoặc cao hơn, hoặc phiên bản mới nhất của trình duyệt Google Chrome và trình duyệt Mozila Firefox. </div>
         </div>
     </div>
 </div>

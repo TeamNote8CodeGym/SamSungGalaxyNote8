@@ -1,0 +1,258 @@
+*{margin:0;
+    padding:0;}
+#performance_intro{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+}
+.nameBlack{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+}
+.headerBlack{
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+}
+.horizontal{
+    padding-top: 5%;
+    position: relative;
+    margin-left: 20%;
+}
+.childHorizontal{
+    width: 20%;
+    float: left;
+}
+.imgChildBlack{
+    width: 50%;
+    margin-left: 20%;
+}
+.cmtChildBlack{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+#performance_intro_2{
+    padding-top: 30%;
+}
+.h2Black{
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+}
+.cmtBlack{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+}
+.imgContainer{
+    padding-top: 5%;
+}
+.imgFullDiv{
+    width: 100%;
+}
+#performance_intro_3{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#performance_intro_3_img{
+    padding-top: 5%;
+    margin-left: -12%;
+    margin-right: -12%;
+}
+#performance_intro_3_img_src{
+    width: 100%;
+    margin-left: -20%;
+}
+#performance_intro_3_cmt{
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    color: black;
+    margin-top: -50%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#performance_intro_4{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cmtDetail{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    color: black;
+}
+#performance_intro_5{
+    padding-top: 10%;
+    position: relative;
+    height: 1200px;
+}
+#performance_intro_5_1{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 1000px;
+    margin-right: 30%;
+}
+#performance_intro_5_1_img{
+    width: 200%;
+}
+#performance_intro_5_2{
+    margin-top: 20%;
+    position: absolute;
+    left: 0;
+    width: 40%;
+    height: 1000px;
+    margin-left: 10%;
+}
+#performance_detail{
+    padding-top: 10%;
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.headerWhite{
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+.horizontalWhite{
+    width: 80%;
+    padding-top: 5%;
+    margin-left: 13%;
+}
+.childHorizontalWhite{
+    width: 16%;
+    margin-left: 2%;
+    display: inline-grid;
+}
+.imgChildWhite{
+    width: 50%;
+    margin-left: 20%;
+}
+.cmtChildWhite{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#performance_detail_2{
+    padding-top: 10%;
+}
+#performance_detail_2_pic{
+    margin-right: -12%;
+}
+#performance_detail_2_text{
+    padding-top: 5%;
+    padding-right: 40%;
+}
+.nameWhite{
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+.h2White{
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+.cmtWhite{
+    padding-top: 20px;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+}
+.cmtDetailWhite{
+    padding-top: 20px;
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+}
+#performance_detail_3{
+    padding-top: 10%;
+    display: inline-flex;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+#performance_detail_4{
+    padding-top: 10%;
+    display: inline-flex;
+    padding-left: 10%;
+}
+#performance_detail_4_2{
+    margin-top: -20%;
+}
+#performance_detail_5{
+    padding-top: 10%;
+    margin-left: -10%;
+    display: inline-flex;
+}
+#performance_detail_5_1_2, #performance_detail_5_1_3, #performance_detail_5_1_4, #performance_detail_5_1_5, #performance_detail_5_1_6{
+    margin-top: -100%;
+}
+#performance_detail_5_1_1, #performance_detail_5_1_2, #performance_detail_5_1_3, #performance_detail_5_1_4, #performance_detail_5_1_5, #performance_detail_5_1_6 {
+    width: 100%;
+}
+#performance_detail_5_2{
+    text-align: right;
+    margin-top: 30%;
+}
+#performance_detail_6{
+    padding-top: 10%;
+    display: inline-flex;
+}
+#performance_detail_6_feature{
+    padding-top: 5%;
+    display: inline-flex;
+}
+.img-p{
+    display: inline-flex;
+}
+#performance_detail_6_1_detail{
+    padding-top: 5%;
+}
+#performance_detail_6_feature_group_2{
+    padding-left: 5%;
+}
+.imgLog{
+    height: 50px;
+}
+.cmtLog{
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
