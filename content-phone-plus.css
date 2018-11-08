@@ -516,7 +516,7 @@ svg {
 }
 
 
-/*Phone_Plus_Page_CSS*/
+/* TODO:Phone_Plus_Page_CSS*/
 .m_phone-plus-page{
     margin-top: 100px;
 
@@ -605,7 +605,7 @@ svg {
     background-position: center center;
 }
 
-/*Gear 360 + Gear VR*/
+/*TODO:Gear 360 + Gear VR*/
 
 .gear_360{
     position: relative;
@@ -684,7 +684,7 @@ svg {
     /*border: white solid thin;*/
 }
 
-/*Accessories_Page*/
+/*TODO:Accessories_Page*/
 
 .accessories-page-css{
     text-align: center;
@@ -1073,7 +1073,7 @@ svg {
 }
 
 
-/*Acc_changer*/
+/*TODO:Acc_changer*/
 
 .acc_changer{
     height: 1900px;
@@ -1273,4 +1273,5 @@ svg {
     display: table;
     clear: both;
 }
+
 
