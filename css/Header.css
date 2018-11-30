@@ -1,3 +1,7 @@
+*{
+    font-family: Arial;
+}
+
 .topnav {
     position: relative;
     overflow: hidden;
@@ -99,9 +103,7 @@
 }
 
 .nav a:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid blue;
 }
 
-.nav a.active {
-    border-bottom: 3px solid red;
-}
+

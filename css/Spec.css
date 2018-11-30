@@ -40,7 +40,7 @@
     width: 15%;
     height: 345px;
     margin-left: 25%;
-    background-image: url("image/image_spec/den_huyen_bi.png");
+    background-image: url("../image/image_spec/den_huyen_bi.png");
     display: inline-block;
     line-height: 750px;
     text-align: right;
@@ -50,7 +50,7 @@
     width: 15%;
     height: 345px;
     margin-left: 5%;
-    background-image: url("image/image_spec/vang_ho_phach.png");
+    background-image: url("../image/image_spec/vang_ho_phach.png");
     display: inline-block;
     line-height: 750px;
     text-align:right;
@@ -102,6 +102,6 @@
     margin-left: 5%;
     width: 10%;
     height: 30px;
-    background-image: url("image/image_footer/new-window.svg");
+    background-image: url("../image/image_footer/new-window.svg");
     color: black;
 }

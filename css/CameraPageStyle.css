@@ -3,7 +3,7 @@
 #camera_tech{
     padding-left: 10%;
     padding-right: 10%;
-    background-image: url("./resources/Camera_Page/galaxy_note8_camera_dual_bg_m.jpg");
+    background-image: url("../resources/Camera_Page/galaxy_note8_camera_dual_bg_m.jpg");
 }
 #camera_tech_1_header_content{
     text-align: center;
@@ -113,7 +113,7 @@
     font-size: 15px;
 }
 #camera_tech_2{
-    background-image: url("./resources/Camera_Page/galaxy_note8_camera_av.jpg");
+    background-image: url("../resources/Camera_Page/galaxy_note8_camera_av.jpg");
     background-size: cover;
     height: 500px;
     margin-left: -20%;
@@ -157,7 +157,7 @@
     margin-top: 10%;
     height: 500px;
     padding-bottom: 5%;
-    background-image: url(./resources/Camera_Page/galaxy_note8_camera_focus2.jpg);
+    background-image: url(../resources/Camera_Page/galaxy_note8_camera_focus2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -247,7 +247,7 @@
 }
 #camera_own_the_night{
     padding-bottom: 10%;
-    background-image: url("./resources/Camera_Page/galaxy_note8_camera_night_bg.jpg");
+    background-image: url("../resources/Camera_Page/galaxy_note8_camera_night_bg.jpg");
     background-size: cover;
 }
 #camera_own_the_night_intro{
@@ -831,7 +831,7 @@
 }
 #camera_lib_pic{
     padding-top: 10%;
-    background-image: url("./resources/Camera_Page/galaxy_note8_camera_gallery_img_m.jpg");
+    background-image: url("../resources/Camera_Page/galaxy_note8_camera_gallery_img_m.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;

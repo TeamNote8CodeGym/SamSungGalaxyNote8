@@ -2,7 +2,7 @@
 *{margin:0;
 padding:0;}
 #spen{
-    background-image: url("resources/Spen_Image/spen_background.PNG");
+    background-image: url("../resources/Spen_Image/spen_background.PNG");
     width: 100%;
     height: 1200px;
     position: relative;
@@ -185,7 +185,7 @@ padding:0;}
     border: black;
 }
 #camera{
-    background-image: url("resources/Camera_Image/Background_Image.PNG");
+    background-image: url("../resources/Camera_Image/Background_Image.PNG");
     width: 100%;
     height: 1200px;
     position: relative;
@@ -400,7 +400,7 @@ padding:0;}
     border: black;
 }
 #efficiency{
-    background-image: url("resources/HS_Image/Background_Image.PNG");
+    background-image: url("../resources/HS_Image/Background_Image.PNG");
     width: 100%;
     height: 1200px;
     position: relative;

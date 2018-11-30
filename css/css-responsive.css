@@ -1,0 +1,99 @@
+
+.btn-primary{
+    border-radius: 0;
+    background-color: #0074c2;
+    margin: 0;
+    width: 160px;
+}
+
+.navbar{
+    position: relative;
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.navbar-nav a:hover{
+    border-bottom: blue;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+}
+
+.navbar-nav a:hover + #nav2\.8{
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+}
+
+
+#nav1{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+
+#nav2\.1,#nav2\.2, #nav2\.3,#nav2\.4, #nav2\.5, #nav2\.6, #nav2\.7, #nav2\.8, #nav2\.9, #nav2\.10 {
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+#nav2\.8{
+    border-color: blue;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+}
+
+.ul_footer li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.ul_footer li a{
+    color: #0F0F0F;
+}
+
+.ul_footer2 li, a{
+    list-style: none;
+    color: black;
+    margin-top: 10px;
+
+}
+
+.ul_footer3 li, a{
+    list-style: none;
+    color: black;
+}
+
+
+#support{
+    background-image: url("../image/image_footer/hotrotructuyen.svg");
+    background-repeat: no-repeat;
+}
+
+#email{
+    background-image: url("../image/image_footer/email.svg");
+    background-repeat: no-repeat;
+}
+
+#phone{
+    background-image: url("../image/image_footer/dienthoai.svg");
+    background-repeat: no-repeat;
+}
+
+#guarantee{
+    background-image: url("../image/image_footer/trungtambaohanh.svg");
+    background-repeat: no-repeat;
+}
+
+.ul_footer4 li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    margin-right: 30px;
+}
+

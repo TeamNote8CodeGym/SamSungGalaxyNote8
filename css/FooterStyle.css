@@ -150,7 +150,7 @@
 #Footer_3_2_bando_img {
     width: 6px;
     height: 10px;
-    background-image: url("image/image_footer/right-gray.svg");
+    background-image: url("../image/image_footer/right-gray.svg");
     display: inline-block;
 }
 #Footer3_2_qhndt{
@@ -164,14 +164,14 @@
 #Footer3_2_qhdautu_img{
     width: 12px;
     height: 12px;
-    background-image: url("image/image_footer/new-window.svg");
+    background-image: url("../image/image_footer/new-window.svg");
     display: inline-block;
 }
 
 #Footer3_2_tintuc_img{
     width: 12px;
     height: 12px;
-    background-image: url("image/image_footer/new-window.svg");
+    background-image: url("../image/image_footer/new-window.svg");
     display: inline-block;
 }
 
@@ -182,14 +182,14 @@
 #Footer3_2_hotrotructuyen1_img{
     width: 16px;
     height: 16px;
-    background-image: url("image/image_footer/hotrotructuyen.svg");
+    background-image: url("../image/image_footer/hotrotructuyen.svg");
     display: inline-block;
 }
 
 #Footer3_2_hotrotructuyen2_img{
     width: 12px;
     height: 12px;
-    background-image: url("image/image_footer/new-window.svg");
+    background-image: url("../image/image_footer/new-window.svg");
     display: inline-block;
 }
 
@@ -200,14 +200,14 @@
 #Footer3_2_email1_img{
     width: 16px;
     height: 16px;
-    background-image: url("image/image_footer/email.svg");
+    background-image: url("../image/image_footer/email.svg");
     display: inline-block;
 }
 
 #Footer3_2_email2_img{
     width: 12px;
     height: 12px;
-    background-image: url("image/image_footer/new-window.svg");
+    background-image: url("../image/image_footer/new-window.svg");
     display: inline-block;
 }
 
@@ -218,7 +218,7 @@
 #Footer3_2_dienthoai_img{
     width: 16px;
     height: 16px;
-    background-image: url("image/image_footer/dienthoai.svg");
+    background-image: url("../image/image_footer/dienthoai.svg");
     display: inline-block;
 }
 
@@ -229,7 +229,7 @@
 #Footer3_2_baohanh_img{
     width: 16px;
     height: 16px;
-    background-image: url("image/image_footer/trungtambaohanh.svg");
+    background-image: url("../image/image_footer/trungtambaohanh.svg");
     display: inline-block;
 }
 
@@ -246,7 +246,7 @@
 #Footer3_2_fb_img{
     width: 40px;
     height: 40px;
-    background-image: url("image/image_footer/facebook.svg");
+    background-image: url("../image/image_footer/facebook.svg");
     display: inline-block;
 
 }
@@ -254,7 +254,7 @@
 #Footer3_2_yt_img{
     width: 40px;
     height: 40px;
-    background-image: url("image/image_footer/youtube.svg");
+    background-image: url("../image/image_footer/youtube.svg");
     display: inline-block;
     margin-left: 13px;
 }
@@ -262,7 +262,7 @@
 #Footer3_2_ins_img{
     width: 40px;
     height: 40px;
-    background-image: url("image/image_footer/instagram.svg");
+    background-image: url("../image/image_footer/instagram.svg");
     display: inline-block;
     margin-left: 13px;
 }
@@ -270,7 +270,7 @@
 #Footer3_2_logo_img{
     width: 215px;
     height: 92px;
-    background-image: url("image/image_footer/logo.png");
+    background-image: url("../image/image_footer/logo.png");
     margin-top: 18px;
 }
 
@@ -305,7 +305,7 @@
 #Footer4_1_2 {
     display: inline-block;
     margin-left: 2%;
-    background: url("image/image_footer/email.svg") no-repeat;
+    background: url("../image/image_footer/email.svg") no-repeat;
     height: 20px;
 }
 

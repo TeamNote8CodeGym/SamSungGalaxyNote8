@@ -208,7 +208,7 @@
 }
 
 .a_smart-switch-new{
-    background: url("resources/images-phone_plus-smart_switch/galaxy-note8_btn_bg_icon_link-new-tab.png") no-repeat right top;
+    background: url("../resources/images-phone_plus-smart_switch/galaxy-note8_btn_bg_icon_link-new-tab.png") no-repeat right top;
     font-family: Arial;
     font-size: 18px;
     line-height: 23px;
@@ -372,10 +372,10 @@
     border-radius: 50px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 40px;
-    background-color: #000;
+    background-color: #0F0F0F;
     border: white solid thin;
-    color: #fff;
     cursor: pointer;
+    color: white;
     position: relative;
     top: 170px;
     left: 50px;
@@ -383,7 +383,7 @@
 
 .btn-type3 a:hover{
     background-color: #fff;
-    color: #000;
+    color: #000000;
 }
 
 
@@ -450,7 +450,7 @@ i{
     opacity: 1.0;
 }
 
-.path {
+.div_link-smart-switch svg .path {
     stroke-dasharray: 100;
     stroke-dashoffset: 1000;
     animation: dash 5s linear alternate infinite;
@@ -465,7 +465,7 @@ i{
     }
 }
 
-svg {
+.div_link-smart-switch svg {
     stroke: #000;
     stroke-width: 5;
     stroke-linecap: round;
@@ -572,7 +572,7 @@ svg {
 }
 
 .icon-inner-samsung-dex .icon-inner-link-samsungdex figcaption{
-    background: url("resources/images-phone_plus-smart_switch/galaxy-note8_btn_bg_icon_link-new-tab.png") no-repeat right top;
+    background: url("../resources/images-phone_plus-smart_switch/galaxy-note8_btn_bg_icon_link-new-tab.png") no-repeat right top;
     background-size: 23px;
     position: relative;
     line-height: 23px;
